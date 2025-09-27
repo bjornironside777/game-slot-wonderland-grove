@@ -1,0 +1,53 @@
+high_payout_2.webp
+	size: 1154, 590
+	filter: Linear, Linear
+banner_rays
+	bounds: 2, 39, 603, 549
+	offsets: 161, 25, 939, 582
+bg
+	bounds: 607, 17, 192, 192
+	offsets: 1, 1, 194, 194
+double_frame
+	bounds: 175, 22, 15, 173
+	offsets: 90, 11, 194, 194
+	rotate: 90
+frame_1
+	bounds: 801, 17, 192, 192
+	offsets: 1, 1, 194, 194
+glow_frame
+	bounds: 988, 454, 134, 155
+	offsets: 32, 21, 194, 194
+	rotate: 90
+ground_!
+	bounds: 2, 2, 171, 35
+	offsets: 1, 1, 173, 37
+ground_2
+	bounds: 1034, 108, 108, 43
+	offsets: 1, 1, 110, 52
+mushroom_2
+	bounds: 1093, 57, 49, 59
+	rotate: 90
+mushroom_3
+	bounds: 1093, 12, 43, 55
+	rotate: 90
+mushroom_4
+	bounds: 175, 4, 16, 22
+	rotate: 90
+mushroom_head
+	bounds: 995, 153, 135, 72
+	offsets: 1, 1, 137, 74
+mushroom_inner
+	bounds: 995, 18, 133, 37
+	offsets: 1, 1, 135, 39
+	rotate: 90
+particles
+	bounds: 607, 211, 379, 377
+	offsets: 215, 204, 800, 795
+reys
+	bounds: 988, 227, 142, 111
+	offsets: 5, 8, 149, 123
+smoke
+	bounds: 988, 340, 146, 112
+	offsets: 10, 17, 176, 140
+stem
+	bounds: 1034, 28, 57, 78

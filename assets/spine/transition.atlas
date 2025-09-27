@@ -1,0 +1,85 @@
+transition.webp
+	size: 1937, 1956
+	filter: Linear, Linear
+particle stars_00
+	bounds: 1031, 4, 146, 107
+	offsets: 249, 125, 640, 360
+	rotate: 90
+particle stars_01
+	bounds: 1292, 8, 144, 110
+	offsets: 247, 124, 640, 360
+	rotate: 90
+particle stars_02
+	bounds: 1140, 40, 150, 112
+	offsets: 245, 123, 640, 360
+particle stars_03
+	bounds: 872, 35, 157, 115
+	offsets: 240, 121, 640, 360
+particle stars_04
+	bounds: 708, 32, 162, 118
+	offsets: 238, 119, 640, 360
+particle stars_05
+	bounds: 544, 22, 162, 122
+	offsets: 238, 117, 640, 360
+particle stars_06
+	bounds: 370, 14, 172, 130
+	offsets: 236, 112, 640, 360
+particle stars_07
+	bounds: 192, 9, 176, 135
+	offsets: 232, 109, 640, 360
+particle stars_08
+	bounds: 2, 2, 188, 142
+	offsets: 228, 105, 640, 360
+particle stars_09
+	bounds: 1668, 59, 208, 152
+	offsets: 224, 99, 640, 360
+particle stars_10
+	bounds: 1676, 213, 241, 160
+	offsets: 190, 94, 640, 360
+particle stars_11
+	bounds: 1689, 375, 242, 176
+	offsets: 190, 88, 640, 360
+particle stars_12
+	bounds: 1408, 140, 258, 192
+	offsets: 190, 74, 640, 360
+particle stars_13
+	bounds: 1408, 334, 266, 209
+	offsets: 184, 68, 640, 360
+particle stars_14
+	bounds: 1689, 553, 315, 246
+	offsets: 165, 50, 640, 360
+	rotate: 90
+particle stars_15
+	bounds: 1135, 154, 352, 271
+	offsets: 144, 37, 640, 360
+	rotate: 90
+particle stars_16
+	bounds: 1286, 545, 401, 323
+	offsets: 111, 11, 640, 360
+particle stars_17
+	bounds: 644, 152, 489, 354
+	offsets: 63, 0, 640, 360
+particle stars_18
+	bounds: 2, 1594, 640, 360
+particle stars_19
+	bounds: 2, 1232, 640, 360
+particle stars_20
+	bounds: 644, 1594, 640, 360
+particle stars_21
+	bounds: 2, 870, 640, 360
+particle stars_22
+	bounds: 644, 1232, 640, 360
+particle stars_23
+	bounds: 1286, 1594, 640, 360
+particle stars_24
+	bounds: 2, 508, 640, 360
+particle stars_25
+	bounds: 644, 870, 640, 360
+particle stars_26
+	bounds: 1286, 1232, 640, 360
+particle stars_27
+	bounds: 2, 146, 640, 360
+particle stars_28
+	bounds: 644, 508, 640, 360
+particle stars_29
+	bounds: 1286, 870, 640, 360

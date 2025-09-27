@@ -1,0 +1,1066 @@
+{
+	"layout": {
+		"children": [
+			{
+				"cls": "starling.display.Image",
+				"constructorParams": [
+					{
+						"cls": "starling.textures.Texture",
+						"textureName": "uiPanelBg"
+					}
+				],
+				"customParams": {},
+				"params": {
+					"name": "uiPanelBg",
+					"alpha": 0.7,
+					"pivotX": 960,
+					"x": 960,
+					"y": -146,
+					"scaleX": 4
+				}
+			},
+
+			{"BetPlus": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "betPlus"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "betPlus"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "normal"
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "Button"
+				},
+				"params": {
+					"name": "betPlus",
+					"x": 1625,
+					"y": -104,
+					"pivotX": 28,
+					"pivotY": 28
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+
+			{"BetMinus": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "betMinus"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "betMinus"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "normal"
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "Button"
+				},
+				"params": {
+					"name": "betMinus",
+					"x": 1625,
+					"y": -41,
+					"pivotX": 28,
+					"pivotY": 28
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+
+			{"SpinBtn": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "ui-btn-spin-normal"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "reference",
+									"pivotX": 105.5,
+									"pivotY": 105.5
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "ButtonSpinAnimation"
+						},
+						"params": {
+							"name": "normal",
+							"x": 105.5,
+							"y": 105.5
+						}
+					},
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xCF0F0F",
+									"font": "InterBold",
+									"size": 14,
+									"fontWeight": 700
+								}
+							},
+							"height": 100,
+							"name": "stopTxt",
+							"pivotX": 100,
+							"pivotY": 50,
+							"text": "stop",
+							"width": 200,
+							"x": 106,
+							"y": 162
+						},
+						"tweenData": {
+							"translation-key": "stopAutoplay"
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xCE0F0F",
+											"font": "InterBold",
+											"size": 38,
+											"fontWeight": 700
+										}
+									},
+									"name": "textField",
+									"x": 0,
+									"y": 0,
+									"text": "",
+									"width": 60,
+									"height": 60,
+									"pivotX": 30,
+									"pivotY": 30
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MeterComponent"
+						},
+						"params": {
+							"name": "autoplayMeter",
+							"x": 106,
+							"y": 106,
+							"pivotX": 30,
+							"pivotY": 30,
+							"extraParam": {
+								"debug": false
+							}
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "ButtonSpin"
+				},
+				"params": {
+					"name": "btnSpin",
+					"pivotX": 105.5,
+					"pivotY": 105.5,
+					"x": 1502,
+					"y": -70
+				}
+			},
+
+			{"AutoplayBtn": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "rounRectBtnBase"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "rounRectBtnBase"
+										}
+									},
+									{
+										"cls": "starling.text.TextField",
+										"constructorParams": [],
+										"customParams": {},
+										"params": {
+											"format": {
+												"cls": "starling.text.TextFormat",
+												"customParams": {},
+												"params": {
+													"color": "0xc0c0c0",
+													"font": "InterBold",
+													"size": 20
+												}
+											},
+											"height": 100,
+											"name": "tfText",
+											"pivotX": 100,
+											"pivotY": 50,
+											"text": "autoplay",
+											"width": 200,
+											"x": 64,
+											"y": 27
+										},
+										"tweenData": {
+											"translation-key": "autoplay"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "hover"
+								}
+							},
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "rounRectBtnBase"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "rounRectBtnBase"
+										}
+									},
+									{
+										"cls": "starling.text.TextField",
+										"constructorParams": [],
+										"customParams": {},
+										"params": {
+											"format": {
+												"cls": "starling.text.TextFormat",
+												"customParams": {},
+												"params": {
+													"color": "0xFFFFFF",
+													"font": "InterBold",
+													"size": 19
+												}
+											},
+											"height": 100,
+											"name": "tfText",
+											"pivotX": 100,
+											"pivotY": 50,
+											"text": "autoplay",
+											"width": 200,
+											"x": 64,
+											"y": 27
+										},
+										"tweenData": {
+											"translation-key": "autoplay"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "normal"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "startState",
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "rounRectBtnBase"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "rounRectBtnBase"
+										}
+									},
+									{
+										"cls": "starling.text.TextField",
+										"constructorParams": [],
+										"customParams": {},
+										"params": {
+											"format": {
+												"cls": "starling.text.TextFormat",
+												"customParams": {},
+												"params": {
+													"color": "0xFFD000",
+													"font": "InterBold",
+													"size": 19
+												}
+											},
+											"height": 100,
+											"name": "stop",
+											"pivotX": 100,
+											"pivotY": 50,
+											"text": "stop",
+											"width": 200,
+											"x": 64,
+											"y": 27
+										},
+										"tweenData": {
+											"translation-key": "stopAutoplay"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "normal"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "stopState",
+							"x": 0,
+							"y": 0
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "AutoplayButton"
+				},
+				"params": {
+					"name": "autoplayBtn",
+					"x": 1343,
+					"y": -69,
+					"pivotX": 62,
+					"pivotY": 28
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+
+			{"turbo": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "turboActive"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "turboActive"
+								}
+							},
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFD000",
+											"font": "InterBold",
+											"size": 19
+										}
+									},
+									"height": 100,
+									"name": "tfText",
+									"pivotX": 100,
+									"pivotY": 50,
+									"text": "turbo",
+									"width": 200,
+									"x": 84,
+									"y": 27
+								},
+								"tweenData": {
+									"translation-key": "turbo"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "onState",
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "turbo"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "turbo"
+								}
+							},
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFFFFF",
+											"font": "InterBold",
+											"size": 19
+										}
+									},
+									"height": 100,
+									"name": "tfText",
+									"pivotX": 100,
+									"pivotY": 50,
+									"text": "turbo",
+									"width": 200,
+									"x": 84,
+									"y": 27
+								},
+								"tweenData": {
+									"translation-key": "turbo"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "offState",
+							"x": 0,
+							"y": 0
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "ToggleButton"
+				},
+				"params": {
+					"name": "turboBtn",
+					"x": 1198,
+					"y": -68,
+					"pivotX": 62,
+					"pivotY": 28
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+
+			{"WinMeterContainer": ""},
+			{
+				"children": [
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xFFFFFF",
+									"font": "InterMedium",
+									"size": 28
+								}
+							},
+							"height": 100,
+							"name": "winLabel",
+							"pivotX": 100,
+							"pivotY": 50,
+							"text": "win",
+							"width": 200,
+							"x": 0,
+							"y": -38
+						},
+						"tweenData": {
+							"translation-key": "tfDesktopWin"
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFFFFF",
+											"font": "InterBlack",
+											"size": 40,
+											"fontWeight": 700
+										}
+									},
+									"name": "textField",
+									"x": 0,
+									"y": 0,
+									"text": "",
+									"width": 400,
+									"height": 100,
+									"pivotX": 200,
+									"pivotY": 50
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MeterComponent"
+						},
+						"params": {
+							"name": "winMeter",
+							"x": 0,
+							"y": 0,
+							"pivotX": 200,
+							"pivotY": 50,
+							"extraParam": {
+								"debug": false
+							}
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {},
+				"params": {
+					"name": "winMeterContainer",
+					"x": 969,
+					"y": -60
+				}
+			},
+
+			{"CreditMeterContainer": ""},
+			{
+				"children": [
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xFFFFFF",
+									"font": "InterMedium",
+									"size": 22,
+									"fontWeight": 700
+								}
+							},
+							"height": 100,
+							"name": "creditMeterLabel",
+							"pivotX": 0,
+							"pivotY": 50,
+							"text": "credit",
+							"width": 200,
+							"x": -78,
+							"y": 0
+						},
+						"tweenData": {
+							"translation-key": "tfCredit"
+						}
+					},
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xFFFFFF",
+									"font": "InterMedium",
+									"size": 22,
+									"fontWeight": 700
+								}
+							},
+							"height": 100,
+							"name": "colon",
+							"pivotX": 0,
+							"pivotY": 50,
+							"text": ":",
+							"width": 200,
+							"x": 100,
+							"y": 0
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFFFFF",
+											"font": "InterMedium",
+											"size": 22,
+											"fontWeight": 700
+										}
+									},
+									"name": "textField",
+									"text": "0",
+									"x": 0,
+									"y": 0,
+									"width": 300,
+									"height": 50,
+									"pivotX": 0,
+									"pivotY": 25
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MeterComponent"
+						},
+						"params": {
+							"name": "creditMeter",
+							"x": 114,
+							"y": 0,
+							"pivotX": 0,
+							"pivotY": 25,
+							"extraParam": {
+								"debug": false
+							}
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {},
+				"params": {
+					"name": "creditMeterContainer",
+					"x": 508,
+					"y": -88
+				}
+			},
+
+			{"BetMeterContainer": ""},
+			{
+				"children": [
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xFFFFFF",
+									"font": "InterMedium",
+									"size": 22,
+									"fontWeight": 700
+								}
+							},
+							"height": 100,
+							"name": "betLabel",
+							"pivotX": 0,
+							"pivotY": 50,
+							"text": "bet",
+							"width": 200,
+							"x": -78,
+							"y": 0
+						},
+						"tweenData": {
+							"translation-key": "tfbet"
+						}
+					},
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xFFFFFF",
+									"font": "InterMedium",
+									"size": 22,
+									"fontWeight": 700
+								}
+							},
+							"height": 100,
+							"name": "colon",
+							"pivotX": 0,
+							"pivotY": 50,
+							"text": ":",
+							"width": 200,
+							"x": 100,
+							"y": 0
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFFFFF",
+											"font": "InterMedium",
+											"size": 22,
+											"fontWeight": 700
+										}
+									},
+									"name": "textField",
+									"text": "0",
+									"x": 0,
+									"y": 0,
+									"width": 300,
+									"height": 50,
+									"pivotX": 0,
+									"pivotY": 25
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MeterComponent"
+						},
+						"params": {
+							"name": "betMeter",
+							"x": 114,
+							"y": 0,
+							"pivotX": 0,
+							"pivotY": 25,
+							"extraParam": {
+								"debug": false
+							}
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {},
+				"params": {
+					"name": "betMeterContainer",
+					"x": 508,
+					"y": -50
+				}
+			},
+
+			{"InfoButton": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "infoBtn"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "infoBtn"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "normal"
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "Button"
+				},
+				"params": {
+					"name": "infoButton",
+					"x": 366,
+					"y": -70,
+					"pivotX": 28,
+					"pivotY": 28
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+
+			{"SoundButton": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "soundBtn"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "soundBtn"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "onState",
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "muteBtn"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "muteBtn"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "offState",
+							"x": 0,
+							"y": 0
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "ToggleButton"
+				},
+				"params": {
+					"name": "soundBtn",
+					"x": 294,
+					"y": -70,
+					"pivotX": 28,
+					"pivotY": 28
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+
+			{"SettingButton": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "settingBtn"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "settingBtn"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "normal"
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "Button"
+				},
+				"params": {
+					"name": "settingButton",
+					"x": 224,
+					"y": -70,
+					"pivotX": 28,
+					"pivotY": 28
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+
+			{
+				"cls": "starling.text.TextField",
+				"constructorParams": [],
+				"customParams": {},
+				"params": {
+					"format": {
+						"cls": "starling.text.TextFormat",
+						"customParams": {},
+						"params": {
+							"color": "0xFFFFFF",
+							"font": "InterMedium",
+							"size": 14,
+							"fontWeight": 700,
+							"align": "right"
+						}
+					},
+					"height": 100,
+					"name": "holdSpace",
+					"pivotX": 200,
+					"pivotY": 50,
+					"text": "tfHoldSpace",
+					"width": 200,
+					"x": 1880,
+					"y": -70,
+					"alpha": 0.7
+				},
+				"tweenData": {
+					"translation-key": "tfHoldSpace"
+				}
+			},
+
+			{
+				"cls": "starling.display.Image",
+				"constructorParams": [
+					{
+						"cls": "starling.textures.Texture",
+						"textureName": "darphaLogo"
+					}
+				],
+				"customParams": {},
+				"params": {
+					"name": "logo",
+					"x": 14,
+					"y": -33
+				}
+			}
+		],
+		"cls": "starling.display.Sprite",
+		"customParams": {},
+		"params": {
+			"name": "uiHorizontal"
+		}
+	}
+}

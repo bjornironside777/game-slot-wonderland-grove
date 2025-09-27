@@ -1,0 +1,74 @@
+{
+    "data": {
+        "Current": {
+            "Type": 1,
+            "TotalWin": 1.2,
+            "AccWin": 1.2,
+            "Result": {
+                "SC": 0,
+                "R": "103,105,103,101|105,104,102,104|105,105,204,105|103,102,203,102|103,101,105,101",
+                "WR": [
+                    {
+                        "symbol": "LV5",
+                        "wayPayout": 0.4,
+                        "way": [
+                            "0-1",
+                            "1-0",
+                            "2-0"
+                        ],
+                        "multiplier": 1
+                    },
+                    {
+                        "symbol": "LV5",
+                        "wayPayout": 0.4,
+                        "way": [
+                            "0-1",
+                            "1-0",
+                            "2-1"
+                        ],
+                        "multiplier": 1
+                    },
+                    {
+                        "symbol": "LV5",
+                        "wayPayout": 0.4,
+                        "way": [
+                            "0-1",
+                            "1-0",
+                            "2-3"
+                        ],
+                        "multiplier": 1
+                    }
+                ]
+            },
+            "MultiplierMap": {},
+            "Round": {
+                "RoundType": 1,
+                "Bet": 4,
+                "ActualBet": 4,
+                "BetValue": 4,
+                "Line": 20,
+                "LineBet": 0.2,
+                "Payout": 1.2,
+                "Mode": 1
+            }
+        },
+        "Next": {
+            "Type": 1
+        },
+        "Status": 200,
+        "Ts": 1725517691115,
+        "Player": {
+            "Balance": 99800.3,
+            "Rate": 1,
+            "Currency": "EUR",
+            "CoinRate": 100
+        },
+        "nextServerSeedHash": "17a5a474fcdf2e2711c1fbc0ca6c75d73b7167d649bfb2d458c4491fb488064c",
+        "Details": {
+            "betId": "112669",
+            "gameId": "16",
+            "userId": "31"
+        }
+    },
+    "errors": []
+}

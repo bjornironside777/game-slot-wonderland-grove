@@ -1,0 +1,221 @@
+super_win.webp
+	size: 2001, 1508
+	filter: Linear, Linear
+$ 66.99
+	bounds: 1842, 1067, 439, 127
+	offsets: 2, 2, 443, 130
+	rotate: 90
+amount_base
+	bounds: 2, 14, 610, 193
+	offsets: 1, 1, 612, 195
+gw_particles
+	bounds: 1050, 185, 794, 539
+	offsets: 4, 3, 802, 546
+super_fx/super_fx_0
+	bounds: 1998, 1505, 1, 1
+super_fx/super_fx_1
+	bounds: 1998, 1505, 1, 1
+super_fx/super_fx_2
+	bounds: 1998, 1505, 1, 1
+super_fx/super_fx_27
+	bounds: 1998, 1505, 1, 1
+super_fx/super_fx_28
+	bounds: 1998, 1505, 1, 1
+super_fx/super_fx_29
+	bounds: 1998, 1505, 1, 1
+win_fx/win_fx_0
+	bounds: 1998, 1505, 1, 1
+win_fx/win_fx_1
+	bounds: 1998, 1505, 1, 1
+super_fx/super_fx_10
+	bounds: 904, 328, 97, 101
+	offsets: 156, 57, 600, 200
+super_fx/super_fx_11
+	bounds: 614, 117, 90, 96
+	offsets: 174, 57, 600, 200
+	rotate: 90
+super_fx/super_fx_12
+	bounds: 1842, 863, 92, 98
+	offsets: 196, 57, 600, 200
+super_fx/super_fx_13
+	bounds: 904, 228, 92, 98
+	offsets: 212, 57, 600, 200
+super_fx/super_fx_14
+	bounds: 1846, 176, 87, 98
+	offsets: 234, 59, 600, 200
+	rotate: 90
+super_fx/super_fx_15
+	bounds: 904, 126, 88, 100
+	offsets: 249, 59, 600, 200
+super_fx/super_fx_16
+	bounds: 904, 24, 87, 100
+	offsets: 272, 59, 600, 200
+super_fx/super_fx_17
+	bounds: 1842, 762, 90, 99
+	offsets: 289, 59, 600, 200
+super_fx/super_fx_18
+	bounds: 1846, 661, 88, 99
+	offsets: 309, 59, 600, 200
+super_fx/super_fx_19
+	bounds: 1846, 560, 89, 99
+	offsets: 329, 59, 600, 200
+super_fx/super_fx_20
+	bounds: 1846, 461, 90, 97
+	offsets: 348, 60, 600, 200
+super_fx/super_fx_21
+	bounds: 1846, 362, 91, 97
+	offsets: 367, 60, 600, 200
+super_fx/super_fx_22
+	bounds: 993, 2, 84, 99
+	offsets: 386, 60, 600, 200
+super_fx/super_fx_23
+	bounds: 1079, 2, 74, 99
+	offsets: 405, 60, 600, 200
+super_fx/super_fx_24
+	bounds: 1944, 968, 55, 97
+	offsets: 424, 60, 600, 200
+super_fx/super_fx_25
+	bounds: 1869, 9, 32, 78
+	offsets: 443, 61, 600, 200
+super_fx/super_fx_26
+	bounds: 2, 5, 7, 51
+	offsets: 462, 65, 600, 200
+	rotate: 90
+super_fx/super_fx_3
+	bounds: 1869, 2, 5, 15
+	offsets: 131, 65, 600, 200
+	rotate: 90
+super_fx/super_fx_4
+	bounds: 1971, 1250, 24, 73
+	offsets: 130, 59, 600, 200
+super_fx/super_fx_5
+	bounds: 1940, 306, 47, 83
+	offsets: 123, 59, 600, 200
+super_fx/super_fx_6
+	bounds: 1936, 866, 63, 95
+	offsets: 122, 59, 600, 200
+super_fx/super_fx_7
+	bounds: 994, 103, 80, 100
+	offsets: 122, 59, 600, 200
+	rotate: 90
+super_fx/super_fx_8
+	bounds: 614, 14, 95, 101
+	offsets: 126, 58, 600, 200
+super_fx/super_fx_9
+	bounds: 1842, 963, 100, 102
+	offsets: 138, 57, 600, 200
+sw_glow
+	bounds: 1050, 726, 790, 780
+	offsets: 26, 74, 870, 855
+sw_rays
+	bounds: 2, 431, 1046, 1075
+	offsets: 12, 12, 1075, 1100
+sw_super
+	bounds: 2, 209, 708, 220
+	offsets: 1, 1, 710, 222
+sw_win
+	bounds: 712, 12, 417, 190
+	offsets: 1, 1, 419, 192
+	rotate: 90
+win_fx/win_fx_10
+	bounds: 1846, 265, 92, 95
+	offsets: 200, 52, 600, 200
+win_fx/win_fx_11
+	bounds: 1193, 93, 90, 95
+	offsets: 211, 52, 600, 200
+	rotate: 90
+win_fx/win_fx_12
+	bounds: 1155, 2, 89, 95
+	offsets: 221, 52, 600, 200
+	rotate: 90
+win_fx/win_fx_13
+	bounds: 1290, 95, 88, 95
+	offsets: 231, 52, 600, 200
+	rotate: 90
+win_fx/win_fx_14
+	bounds: 1580, 97, 86, 95
+	offsets: 242, 52, 600, 200
+	rotate: 90
+win_fx/win_fx_15
+	bounds: 1677, 97, 86, 94
+	offsets: 252, 53, 600, 200
+	rotate: 90
+win_fx/win_fx_16
+	bounds: 1444, 2, 85, 94
+	offsets: 263, 53, 600, 200
+	rotate: 90
+win_fx/win_fx_17
+	bounds: 1846, 89, 85, 95
+	offsets: 274, 53, 600, 200
+	rotate: 90
+win_fx/win_fx_18
+	bounds: 1677, 9, 86, 94
+	offsets: 284, 54, 600, 200
+	rotate: 90
+win_fx/win_fx_19
+	bounds: 1348, 6, 87, 94
+	offsets: 294, 54, 600, 200
+	rotate: 90
+win_fx/win_fx_2
+	bounds: 1971, 1416, 25, 90
+	offsets: 195, 54, 600, 200
+win_fx/win_fx_20
+	bounds: 1387, 95, 88, 94
+	offsets: 304, 54, 600, 200
+	rotate: 90
+win_fx/win_fx_21
+	bounds: 1252, 2, 89, 94
+	offsets: 314, 54, 600, 200
+	rotate: 90
+win_fx/win_fx_22
+	bounds: 1773, 6, 81, 94
+	offsets: 324, 54, 600, 200
+	rotate: 90
+win_fx/win_fx_23
+	bounds: 1773, 89, 71, 94
+	offsets: 334, 54, 600, 200
+win_fx/win_fx_24
+	bounds: 1937, 770, 62, 94
+	offsets: 343, 54, 600, 200
+win_fx/win_fx_25
+	bounds: 1937, 579, 51, 93
+	offsets: 354, 54, 600, 200
+win_fx/win_fx_26
+	bounds: 1939, 391, 42, 92
+	offsets: 363, 55, 600, 200
+win_fx/win_fx_27
+	bounds: 998, 235, 32, 91
+	offsets: 373, 56, 600, 200
+win_fx/win_fx_28
+	bounds: 1971, 1325, 22, 89
+	offsets: 383, 57, 600, 200
+win_fx/win_fx_29
+	bounds: 1990, 627, 9, 45
+	offsets: 393, 63, 600, 200
+win_fx/win_fx_3
+	bounds: 1540, 3, 34, 91
+	offsets: 195, 54, 600, 200
+win_fx/win_fx_4
+	bounds: 1003, 337, 43, 92
+	offsets: 195, 54, 600, 200
+win_fx/win_fx_5
+	bounds: 1938, 485, 51, 92
+	offsets: 195, 54, 600, 200
+win_fx/win_fx_6
+	bounds: 1938, 674, 61, 94
+	offsets: 195, 53, 600, 200
+win_fx/win_fx_7
+	bounds: 1580, 25, 70, 95
+	offsets: 195, 52, 600, 200
+	rotate: 90
+win_fx/win_fx_8
+	bounds: 1096, 104, 79, 95
+	offsets: 195, 52, 600, 200
+	rotate: 90
+win_fx/win_fx_9
+	bounds: 1483, 96, 87, 95
+	offsets: 196, 52, 600, 200
+	rotate: 90
+frame_counter
+	bounds: 701, 487, 712, 180
+	rotate: 90

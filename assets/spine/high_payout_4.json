@@ -1,0 +1,4658 @@
+{
+    "skeleton": {
+        "hash": "7q0oLBwBSRU",
+        "spine": "4.1.24",
+        "x": -97,
+        "y": -97,
+        "width": 194,
+        "height": 194
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "main",
+            "parent": "root"
+        },
+        {
+            "name": "submain",
+            "parent": "main"
+        },
+        {
+            "name": "banner_rays",
+            "parent": "submain",
+            "x": 0.5
+        },
+        {
+            "name": "particles",
+            "parent": "submain",
+            "y": 0.5
+        },
+        {
+            "name": "smoke",
+            "parent": "submain"
+        },
+        {
+            "name": "butterfly",
+            "parent": "submain"
+        },
+        {
+            "name": "body",
+            "parent": "butterfly",
+            "y": -10
+        },
+        {
+            "name": "wing_3",
+            "parent": "body",
+            "x": 6.31,
+            "y": 12.92
+        },
+        {
+            "name": "wing_4",
+            "parent": "body",
+            "x": 4.41,
+            "y": 7.39
+        },
+        {
+            "name": "wing_2",
+            "parent": "body",
+            "x": -5.08,
+            "y": 8.4
+        },
+        {
+            "name": "wing_1",
+            "parent": "body",
+            "x": -4.83,
+            "y": 12.76
+        },
+        {
+            "name": "antenna_2",
+            "parent": "body",
+            "x": 0.39,
+            "y": 22.91
+        },
+        {
+            "name": "antenna_1",
+            "parent": "body",
+            "x": -1.9,
+            "y": 22.74
+        },
+        {
+            "name": "butterfly2",
+            "parent": "submain"
+        },
+        {
+            "name": "body2",
+            "parent": "butterfly2",
+            "y": -10
+        },
+        {
+            "name": "wing_5",
+            "parent": "body2",
+            "x": 6.31,
+            "y": 12.92
+        },
+        {
+            "name": "wing_6",
+            "parent": "body2",
+            "x": 4.41,
+            "y": 7.39
+        },
+        {
+            "name": "wing_7",
+            "parent": "body2",
+            "x": -5.08,
+            "y": 8.4
+        },
+        {
+            "name": "wing_8",
+            "parent": "body2",
+            "x": -4.83,
+            "y": 12.76
+        },
+        {
+            "name": "antenna_3",
+            "parent": "body2",
+            "x": 0.39,
+            "y": 22.91
+        },
+        {
+            "name": "antenna_4",
+            "parent": "body2",
+            "x": -1.9,
+            "y": 22.74
+        }
+    ],
+    "slots": [
+        {
+            "name": "bg",
+            "bone": "submain",
+            "attachment": "bg"
+        },
+        {
+            "name": "bg2",
+            "bone": "submain",
+            "blend": "additive"
+        },
+        {
+            "name": "frame_1",
+            "bone": "submain",
+            "attachment": "frame_1"
+        },
+        {
+            "name": "banner_rays",
+            "bone": "banner_rays",
+            "dark": "000000",
+            "blend": "screen"
+        },
+        {
+            "name": "smoke",
+            "bone": "smoke",
+            "blend": "screen"
+        },
+        {
+            "name": "smoke2",
+            "bone": "smoke",
+            "blend": "multiply"
+        },
+        {
+            "name": "particles",
+            "bone": "particles",
+            "dark": "000000",
+            "blend": "additive"
+        },
+        {
+            "name": "glow_frame",
+            "bone": "submain",
+            "blend": "screen"
+        },
+        {
+            "name": "wing_4",
+            "bone": "wing_4",
+            "attachment": "wing_4"
+        },
+        {
+            "name": "wing_16",
+            "bone": "wing_4",
+            "blend": "additive"
+        },
+        {
+            "name": "wing_6",
+            "bone": "wing_6",
+            "attachment": "wing_4"
+        },
+        {
+            "name": "wing_11",
+            "bone": "wing_6",
+            "blend": "additive"
+        },
+        {
+            "name": "wing_2",
+            "bone": "wing_2",
+            "attachment": "wing_2"
+        },
+        {
+            "name": "wing_14",
+            "bone": "wing_2",
+            "blend": "additive"
+        },
+        {
+            "name": "wing_7",
+            "bone": "wing_7",
+            "attachment": "wing_2"
+        },
+        {
+            "name": "wing_10",
+            "bone": "wing_7",
+            "blend": "additive"
+        },
+        {
+            "name": "wing_3",
+            "bone": "wing_3",
+            "attachment": "wing_3"
+        },
+        {
+            "name": "wing_15",
+            "bone": "wing_3",
+            "blend": "additive"
+        },
+        {
+            "name": "wing_5",
+            "bone": "wing_5",
+            "attachment": "wing_3"
+        },
+        {
+            "name": "wing_12",
+            "bone": "wing_5",
+            "blend": "additive"
+        },
+        {
+            "name": "wing_1",
+            "bone": "wing_1",
+            "attachment": "wing_1"
+        },
+        {
+            "name": "wing_13",
+            "bone": "wing_1",
+            "blend": "additive"
+        },
+        {
+            "name": "wing_8",
+            "bone": "wing_8",
+            "attachment": "wing_1"
+        },
+        {
+            "name": "wing_9",
+            "bone": "wing_8",
+            "blend": "additive"
+        },
+        {
+            "name": "body",
+            "bone": "body",
+            "attachment": "body"
+        },
+        {
+            "name": "body4",
+            "bone": "body",
+            "blend": "additive"
+        },
+        {
+            "name": "body2",
+            "bone": "body2",
+            "attachment": "body"
+        },
+        {
+            "name": "body3",
+            "bone": "body2",
+            "blend": "additive"
+        },
+        {
+            "name": "antenna_2_glow",
+            "bone": "antenna_2",
+            "attachment": "antenna_2_glow"
+        },
+        {
+            "name": "antenna_2_glow2",
+            "bone": "antenna_3",
+            "attachment": "antenna_2_glow"
+        },
+        {
+            "name": "antenna_2",
+            "bone": "antenna_2",
+            "attachment": "antenna_2"
+        },
+        {
+            "name": "antenna_3",
+            "bone": "antenna_3",
+            "attachment": "antenna_2"
+        },
+        {
+            "name": "antenna_1_glow",
+            "bone": "antenna_1",
+            "attachment": "antenna_1_glow"
+        },
+        {
+            "name": "antenna_1_glow2",
+            "bone": "antenna_4",
+            "attachment": "antenna_1_glow"
+        },
+        {
+            "name": "antenna_1",
+            "bone": "antenna_1",
+            "attachment": "antenna_1"
+        },
+        {
+            "name": "antenna_4",
+            "bone": "antenna_4",
+            "attachment": "antenna_1"
+        },
+        {
+            "name": "double_frame",
+            "bone": "submain"
+        },
+        {
+            "name": "double_frame2",
+            "bone": "submain",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "antenna_1": {
+                    "antenna_1": {
+                        "x": -14.6,
+                        "y": 17.26,
+                        "width": 35,
+                        "height": 42
+                    }
+                },
+                "antenna_1_glow": {
+                    "antenna_1_glow": {
+                        "x": -28.1,
+                        "y": 34.76,
+                        "width": 20,
+                        "height": 19
+                    }
+                },
+                "antenna_1_glow2": {
+                    "antenna_1_glow": {
+                        "x": -28.1,
+                        "y": 34.76,
+                        "width": 20,
+                        "height": 19
+                    }
+                },
+                "antenna_2": {
+                    "antenna_2": {
+                        "x": 12.61,
+                        "y": 16.59,
+                        "width": 28,
+                        "height": 39
+                    }
+                },
+                "antenna_2_glow": {
+                    "antenna_2_glow": {
+                        "x": 23.11,
+                        "y": 33.59,
+                        "width": 19,
+                        "height": 19
+                    }
+                },
+                "antenna_2_glow2": {
+                    "antenna_2_glow": {
+                        "x": 23.11,
+                        "y": 33.59,
+                        "width": 19,
+                        "height": 19
+                    }
+                },
+                "antenna_3": {
+                    "antenna_2": {
+                        "x": 12.61,
+                        "y": 16.59,
+                        "width": 28,
+                        "height": 39
+                    }
+                },
+                "antenna_4": {
+                    "antenna_1": {
+                        "x": -14.6,
+                        "y": 17.26,
+                        "width": 35,
+                        "height": 42
+                    }
+                },
+                "banner_rays": {
+                    "banner_rays": {
+                        "width": 939,
+                        "height": 582
+                    }
+                },
+                "bg": {
+                    "bg": {
+                        "width": 194,
+                        "height": 194
+                    }
+                },
+                "bg2": {
+                    "bg": {
+                        "width": 194,
+                        "height": 194
+                    }
+                },
+                "body": {
+                    "body": {
+                        "width": 14,
+                        "height": 54
+                    }
+                },
+                "body2": {
+                    "body": {
+                        "width": 14,
+                        "height": 54
+                    }
+                },
+                "body3": {
+                    "body": {
+                        "width": 14,
+                        "height": 54
+                    }
+                },
+                "body4": {
+                    "body": {
+                        "width": 14,
+                        "height": 54
+                    }
+                },
+                "double_frame": {
+                    "double_frame": {
+                        "width": 194,
+                        "height": 194
+                    }
+                },
+                "double_frame2": {
+                    "double_frame": {
+                        "width": 194,
+                        "height": 194
+                    }
+                },
+                "frame_1": {
+                    "frame_1": {
+                        "width": 194,
+                        "height": 194
+                    }
+                },
+                "glow_frame": {
+                    "glow_frame": {
+                        "scaleX": 2.0265,
+                        "scaleY": 2.0265,
+                        "width": 194,
+                        "height": 194
+                    }
+                },
+                "particles": {
+                    "particles": {
+                        "width": 800,
+                        "height": 795
+                    }
+                },
+                "smoke": {
+                    "smoke": {
+                        "width": 176,
+                        "height": 140
+                    }
+                },
+                "smoke2": {
+                    "smoke": {
+                        "width": 176,
+                        "height": 140
+                    }
+                },
+                "wing_1": {
+                    "wing_1": {
+                        "x": -37.17,
+                        "y": 20.24,
+                        "width": 86,
+                        "height": 56
+                    }
+                },
+                "wing_2": {
+                    "wing_2": {
+                        "x": -18.92,
+                        "y": -22.9,
+                        "width": 56,
+                        "height": 61
+                    }
+                },
+                "wing_3": {
+                    "wing_3": {
+                        "x": 33.19,
+                        "y": 20.58,
+                        "width": 83,
+                        "height": 55
+                    }
+                },
+                "wing_4": {
+                    "wing_4": {
+                        "x": 17.59,
+                        "y": -24.89,
+                        "width": 54,
+                        "height": 63
+                    }
+                },
+                "wing_5": {
+                    "wing_3": {
+                        "x": 33.19,
+                        "y": 20.58,
+                        "width": 83,
+                        "height": 55
+                    }
+                },
+                "wing_6": {
+                    "wing_4": {
+                        "x": 17.59,
+                        "y": -24.89,
+                        "width": 54,
+                        "height": 63
+                    }
+                },
+                "wing_7": {
+                    "wing_2": {
+                        "x": -18.92,
+                        "y": -22.9,
+                        "width": 56,
+                        "height": 61
+                    }
+                },
+                "wing_8": {
+                    "wing_1": {
+                        "x": -37.17,
+                        "y": 20.24,
+                        "width": 86,
+                        "height": 56
+                    }
+                },
+                "wing_9": {
+                    "wing_1": {
+                        "x": -37.17,
+                        "y": 20.24,
+                        "width": 86,
+                        "height": 56
+                    }
+                },
+                "wing_10": {
+                    "wing_2": {
+                        "x": -18.92,
+                        "y": -22.9,
+                        "width": 56,
+                        "height": 61
+                    }
+                },
+                "wing_11": {
+                    "wing_4": {
+                        "x": 17.59,
+                        "y": -24.89,
+                        "width": 54,
+                        "height": 63
+                    }
+                },
+                "wing_12": {
+                    "wing_3": {
+                        "x": 33.19,
+                        "y": 20.58,
+                        "width": 83,
+                        "height": 55
+                    }
+                },
+                "wing_13": {
+                    "wing_1": {
+                        "x": -37.17,
+                        "y": 20.24,
+                        "width": 86,
+                        "height": 56
+                    }
+                },
+                "wing_14": {
+                    "wing_2": {
+                        "x": -18.92,
+                        "y": -22.9,
+                        "width": 56,
+                        "height": 61
+                    }
+                },
+                "wing_15": {
+                    "wing_3": {
+                        "x": 33.19,
+                        "y": 20.58,
+                        "width": 83,
+                        "height": 55
+                    }
+                },
+                "wing_16": {
+                    "wing_4": {
+                        "x": 17.59,
+                        "y": -24.89,
+                        "width": 54,
+                        "height": 63
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "double_static": {
+            "slots": {
+                "banner_rays": {
+                    "rgba2": [
+                        {
+                            "light": "06fff800",
+                            "dark": "0c7eff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "light": "06fff8ff",
+                            "dark": "0c7eff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "light": "06fff8ff",
+                            "dark": "0c7eff"
+                        },
+                        {
+                            "time": 1,
+                            "light": "06fff800",
+                            "dark": "0c7eff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "banner_rays"
+                        }
+                    ]
+                },
+                "bg2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "bg"
+                        }
+                    ]
+                },
+                "body3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "body"
+                        }
+                    ]
+                },
+                "body4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "body"
+                        }
+                    ]
+                },
+                "double_frame": {
+                    "attachment": [
+                        {
+                            "name": "double_frame"
+                        }
+                    ]
+                },
+                "double_frame2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "double_frame"
+                        }
+                    ]
+                },
+                "glow_frame": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "glow_frame"
+                        }
+                    ]
+                },
+                "particles": {
+                    "rgba2": [
+                        {
+                            "light": "a4fffc00",
+                            "dark": "00fff1"
+                        },
+                        {
+                            "time": 0.2,
+                            "light": "a4fffcff",
+                            "dark": "00fff1",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "light": "a4fffcff",
+                            "dark": "00fff1"
+                        },
+                        {
+                            "time": 1,
+                            "light": "a4fffc00",
+                            "dark": "00fff1"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "particles"
+                        }
+                    ]
+                },
+                "smoke": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "smoke"
+                        }
+                    ]
+                },
+                "smoke2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "smoke"
+                        }
+                    ]
+                },
+                "wing_9": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_1"
+                        }
+                    ]
+                },
+                "wing_10": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_2"
+                        }
+                    ]
+                },
+                "wing_11": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_4"
+                        }
+                    ]
+                },
+                "wing_12": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_3"
+                        }
+                    ]
+                },
+                "wing_13": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_1"
+                        }
+                    ]
+                },
+                "wing_14": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_2"
+                        }
+                    ]
+                },
+                "wing_15": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_3"
+                        }
+                    ]
+                },
+                "wing_16": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_4"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "banner_rays": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": -8.55
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 10.56,
+                            "y": -2.06
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.487,
+                            "y": 0.487
+                        }
+                    ]
+                },
+                "particles": {
+                    "translate": [
+                        {
+                            "y": 5.41
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.25,
+                            "y": 16.23
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.495,
+                            "y": 0.495
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.697,
+                            "y": 0.697
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.798,
+                            "y": 0.798
+                        }
+                    ]
+                },
+                "smoke": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": -9.64
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 7.39
+                        },
+                        {
+                            "time": 1,
+                            "x": 7.39,
+                            "y": 8.15
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.387,
+                            "y": 1.767
+                        },
+                        {
+                            "time": 1,
+                            "x": 2.159,
+                            "y": 2.751
+                        }
+                    ]
+                },
+                "body": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.027,
+                                0,
+                                0.089,
+                                0,
+                                0.027,
+                                -4.77,
+                                0.089,
+                                -14.45
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -14.45,
+                            "curve": [
+                                0.233,
+                                0,
+                                0.333,
+                                0,
+                                0.233,
+                                -14.45,
+                                0.333,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "y": 4.93,
+                            "curve": [
+                                0.511,
+                                0,
+                                0.589,
+                                0,
+                                0.511,
+                                4.93,
+                                0.589,
+                                -6.92
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": -6.92,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.778,
+                                0,
+                                0.722,
+                                -6.92,
+                                0.778,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": 4.93,
+                            "curve": [
+                                0.889,
+                                0,
+                                0.967,
+                                0,
+                                0.889,
+                                4.93,
+                                0.967,
+                                1.63
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94,
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.94,
+                            "y": 0.94,
+                            "curve": [
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2,
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066,
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_1": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.044,
+                                0,
+                                0.089,
+                                14.36
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 14.36,
+                            "curve": [
+                                0.244,
+                                14.36,
+                                0.356,
+                                -21.82
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -21.82,
+                            "curve": [
+                                0.556,
+                                -21.82,
+                                0.644,
+                                11.63
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": 11.63,
+                            "curve": [
+                                0.822,
+                                11.63,
+                                0.911,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_2": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.156,
+                                21.62
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 21.62,
+                            "curve": [
+                                0.344,
+                                21.62,
+                                0.456,
+                                -14.44
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": -14.44,
+                            "curve": [
+                                0.656,
+                                -14.44,
+                                0.744,
+                                13.82
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 13.82,
+                            "curve": [
+                                0.889,
+                                13.82,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_3": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -15.59
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -15.59,
+                            "curve": [
+                                0.256,
+                                -15.59,
+                                0.344,
+                                22.74
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "value": 22.74,
+                            "curve": [
+                                0.522,
+                                22.74,
+                                0.611,
+                                -13.01
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": -13.01,
+                            "curve": [
+                                0.8,
+                                -13.01,
+                                0.9,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_4": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.1,
+                                0,
+                                0.2,
+                                -23.21
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -23.21,
+                            "curve": [
+                                0.389,
+                                -23.21,
+                                0.478,
+                                18.37
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 18.37,
+                            "curve": [
+                                0.656,
+                                18.37,
+                                0.744,
+                                -14.66
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -14.66,
+                            "curve": [
+                                0.889,
+                                -14.66,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_2": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.074,
+                                0,
+                                0.093,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 24.89,
+                            "curve": [
+                                0.241,
+                                24.89,
+                                0.259,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -13.65,
+                            "curve": [
+                                0.389,
+                                -13.65,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.617,
+                                0,
+                                0.618,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 24.89,
+                            "curve": [
+                                0.741,
+                                24.89,
+                                0.759,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -13.65,
+                            "curve": [
+                                0.889,
+                                -13.65,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_1": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -29.72,
+                            "curve": [
+                                0.222,
+                                -29.72,
+                                0.278,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 10.31,
+                            "curve": [
+                                0.389,
+                                10.31,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.561,
+                                0,
+                                0.616,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -29.72,
+                            "curve": [
+                                0.722,
+                                -29.72,
+                                0.778,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 10.31,
+                            "curve": [
+                                0.889,
+                                10.31,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "butterfly": {
+                    "rotate": [
+                        {
+                            "value": -46.73
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -42.93,
+                            "y": -6.04
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.957,
+                            "y": 0.957
+                        }
+                    ]
+                },
+                "wing_5": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -15.59
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -15.59,
+                            "curve": [
+                                0.256,
+                                -15.59,
+                                0.344,
+                                22.74
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "value": 22.74,
+                            "curve": [
+                                0.522,
+                                22.74,
+                                0.611,
+                                -13.01
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": -13.01,
+                            "curve": [
+                                0.8,
+                                -13.01,
+                                0.9,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_6": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.1,
+                                0,
+                                0.2,
+                                -23.21
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -23.21,
+                            "curve": [
+                                0.389,
+                                -23.21,
+                                0.478,
+                                18.37
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 18.37,
+                            "curve": [
+                                0.656,
+                                18.37,
+                                0.744,
+                                -14.66
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -14.66,
+                            "curve": [
+                                0.889,
+                                -14.66,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_7": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.156,
+                                21.62
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 21.62,
+                            "curve": [
+                                0.344,
+                                21.62,
+                                0.456,
+                                -14.44
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": -14.44,
+                            "curve": [
+                                0.656,
+                                -14.44,
+                                0.744,
+                                13.82
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 13.82,
+                            "curve": [
+                                0.889,
+                                13.82,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_8": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.044,
+                                0,
+                                0.089,
+                                14.36
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 14.36,
+                            "curve": [
+                                0.244,
+                                14.36,
+                                0.356,
+                                -21.82
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -21.82,
+                            "curve": [
+                                0.556,
+                                -21.82,
+                                0.644,
+                                11.63
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": 11.63,
+                            "curve": [
+                                0.822,
+                                11.63,
+                                0.911,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_3": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.074,
+                                0,
+                                0.093,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 24.89,
+                            "curve": [
+                                0.241,
+                                24.89,
+                                0.259,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -13.65,
+                            "curve": [
+                                0.389,
+                                -13.65,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.617,
+                                0,
+                                0.618,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 24.89,
+                            "curve": [
+                                0.741,
+                                24.89,
+                                0.759,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -13.65,
+                            "curve": [
+                                0.889,
+                                -13.65,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_4": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -29.72,
+                            "curve": [
+                                0.222,
+                                -29.72,
+                                0.278,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 10.31,
+                            "curve": [
+                                0.389,
+                                10.31,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.561,
+                                0,
+                                0.616,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -29.72,
+                            "curve": [
+                                0.722,
+                                -29.72,
+                                0.778,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 10.31,
+                            "curve": [
+                                0.889,
+                                10.31,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "body2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.027,
+                                0,
+                                0.089,
+                                0,
+                                0.027,
+                                -4.77,
+                                0.089,
+                                -14.45
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -14.45,
+                            "curve": [
+                                0.233,
+                                0,
+                                0.333,
+                                0,
+                                0.233,
+                                -14.45,
+                                0.333,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "y": 4.93,
+                            "curve": [
+                                0.511,
+                                0,
+                                0.589,
+                                0,
+                                0.511,
+                                4.93,
+                                0.589,
+                                -6.92
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": -6.92,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.778,
+                                0,
+                                0.722,
+                                -6.92,
+                                0.778,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": 4.93,
+                            "curve": [
+                                0.889,
+                                0,
+                                0.967,
+                                0,
+                                0.889,
+                                4.93,
+                                0.967,
+                                1.63
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94,
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.94,
+                            "y": 0.94,
+                            "curve": [
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2,
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066,
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "butterfly2": {
+                    "rotate": [
+                        {
+                            "value": -46.73
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 45.51,
+                            "y": -6.04
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.957,
+                            "y": 0.957
+                        }
+                    ]
+                }
+            }
+        },
+        "static": {
+            "slots": {
+                "banner_rays": {
+                    "rgba2": [
+                        {
+                            "light": "06fff800",
+                            "dark": "0ddbff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "banner_rays"
+                        }
+                    ]
+                },
+                "bg2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "bg"
+                        }
+                    ]
+                },
+                "glow_frame": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "glow_frame"
+                        }
+                    ]
+                },
+                "particles": {
+                    "rgba2": [
+                        {
+                            "light": "a4fffc00",
+                            "dark": "00fff1"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "particles"
+                        }
+                    ]
+                },
+                "smoke": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "smoke"
+                        }
+                    ]
+                },
+                "smoke2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "smoke"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "banner_rays": {
+                    "translate": [
+                        {
+                            "x": 10.56,
+                            "y": -2.06
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.487,
+                            "y": 0.487
+                        }
+                    ]
+                },
+                "particles": {
+                    "translate": [
+                        {
+                            "y": 5.41
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.495,
+                            "y": 0.495
+                        }
+                    ]
+                },
+                "smoke": {
+                    "translate": [
+                        {
+                            "x": 7.39
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.609,
+                            "y": 2.051
+                        }
+                    ]
+                }
+            }
+        },
+        "double_win": {
+            "slots": {
+                "banner_rays": {
+                    "rgba2": [
+                        {
+                            "light": "06fff800",
+                            "dark": "0c7eff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "light": "06fff8ff",
+                            "dark": "0c7eff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "light": "06fff8ff",
+                            "dark": "0c7eff"
+                        },
+                        {
+                            "time": 1,
+                            "light": "06fff800",
+                            "dark": "0c7eff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "banner_rays"
+                        }
+                    ]
+                },
+                "bg2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "bg"
+                        }
+                    ]
+                },
+                "body4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "body"
+                        }
+                    ]
+                },
+                "glow_frame": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "glow_frame"
+                        }
+                    ]
+                },
+                "particles": {
+                    "rgba2": [
+                        {
+                            "light": "a4fffc00",
+                            "dark": "00fff1"
+                        },
+                        {
+                            "time": 0.2,
+                            "light": "a4fffcff",
+                            "dark": "00fff1",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "light": "a4fffcff",
+                            "dark": "00fff1"
+                        },
+                        {
+                            "time": 1,
+                            "light": "a4fffc00",
+                            "dark": "00fff1"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "particles"
+                        }
+                    ]
+                },
+                "smoke": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "smoke"
+                        }
+                    ]
+                },
+                "smoke2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "smoke"
+                        }
+                    ]
+                },
+                "wing_13": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_1"
+                        }
+                    ]
+                },
+                "wing_14": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_2"
+                        }
+                    ]
+                },
+                "wing_15": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_3"
+                        }
+                    ]
+                },
+                "wing_16": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_4"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "banner_rays": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": -8.55
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 10.56,
+                            "y": -2.06
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.487,
+                            "y": 0.487
+                        }
+                    ]
+                },
+                "particles": {
+                    "translate": [
+                        {
+                            "y": 5.41
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.25,
+                            "y": 16.23
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.495,
+                            "y": 0.495
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.697,
+                            "y": 0.697
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.798,
+                            "y": 0.798
+                        }
+                    ]
+                },
+                "smoke": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": -9.64
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 7.39
+                        },
+                        {
+                            "time": 1,
+                            "x": 7.39,
+                            "y": 8.15
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.387,
+                            "y": 1.767
+                        },
+                        {
+                            "time": 1,
+                            "x": 2.159,
+                            "y": 2.751
+                        }
+                    ]
+                },
+                "body": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.027,
+                                0,
+                                0.089,
+                                0,
+                                0.027,
+                                -4.77,
+                                0.089,
+                                -14.45
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -14.45,
+                            "curve": [
+                                0.233,
+                                0,
+                                0.333,
+                                0,
+                                0.233,
+                                -14.45,
+                                0.333,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "y": 4.93,
+                            "curve": [
+                                0.511,
+                                0,
+                                0.589,
+                                0,
+                                0.511,
+                                4.93,
+                                0.589,
+                                -6.92
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": -6.92,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.778,
+                                0,
+                                0.722,
+                                -6.92,
+                                0.778,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": 4.93,
+                            "curve": [
+                                0.889,
+                                0,
+                                0.967,
+                                0,
+                                0.889,
+                                4.93,
+                                0.967,
+                                1.63
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94,
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.94,
+                            "y": 0.94,
+                            "curve": [
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2,
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066,
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_1": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.044,
+                                0,
+                                0.089,
+                                14.36
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 14.36,
+                            "curve": [
+                                0.244,
+                                14.36,
+                                0.356,
+                                -21.82
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -21.82,
+                            "curve": [
+                                0.556,
+                                -21.82,
+                                0.644,
+                                11.63
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": 11.63,
+                            "curve": [
+                                0.822,
+                                11.63,
+                                0.911,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_2": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.156,
+                                21.62
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 21.62,
+                            "curve": [
+                                0.344,
+                                21.62,
+                                0.456,
+                                -14.44
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": -14.44,
+                            "curve": [
+                                0.656,
+                                -14.44,
+                                0.744,
+                                13.82
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 13.82,
+                            "curve": [
+                                0.889,
+                                13.82,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_3": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -15.59
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -15.59,
+                            "curve": [
+                                0.256,
+                                -15.59,
+                                0.344,
+                                22.74
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "value": 22.74,
+                            "curve": [
+                                0.522,
+                                22.74,
+                                0.611,
+                                -13.01
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": -13.01,
+                            "curve": [
+                                0.8,
+                                -13.01,
+                                0.9,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_4": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.1,
+                                0,
+                                0.2,
+                                -23.21
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -23.21,
+                            "curve": [
+                                0.389,
+                                -23.21,
+                                0.478,
+                                18.37
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 18.37,
+                            "curve": [
+                                0.656,
+                                18.37,
+                                0.744,
+                                -14.66
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -14.66,
+                            "curve": [
+                                0.889,
+                                -14.66,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_2": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.074,
+                                0,
+                                0.093,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 24.89,
+                            "curve": [
+                                0.241,
+                                24.89,
+                                0.259,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -13.65,
+                            "curve": [
+                                0.389,
+                                -13.65,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.617,
+                                0,
+                                0.618,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 24.89,
+                            "curve": [
+                                0.741,
+                                24.89,
+                                0.759,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -13.65,
+                            "curve": [
+                                0.889,
+                                -13.65,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_1": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -29.72,
+                            "curve": [
+                                0.222,
+                                -29.72,
+                                0.278,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 10.31,
+                            "curve": [
+                                0.389,
+                                10.31,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.561,
+                                0,
+                                0.616,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -29.72,
+                            "curve": [
+                                0.722,
+                                -29.72,
+                                0.778,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 10.31,
+                            "curve": [
+                                0.889,
+                                10.31,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_5": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -15.59
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -15.59,
+                            "curve": [
+                                0.256,
+                                -15.59,
+                                0.344,
+                                22.74
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "value": 22.74,
+                            "curve": [
+                                0.522,
+                                22.74,
+                                0.611,
+                                -13.01
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": -13.01,
+                            "curve": [
+                                0.8,
+                                -13.01,
+                                0.9,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_6": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.1,
+                                0,
+                                0.2,
+                                -23.21
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -23.21,
+                            "curve": [
+                                0.389,
+                                -23.21,
+                                0.478,
+                                18.37
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 18.37,
+                            "curve": [
+                                0.656,
+                                18.37,
+                                0.744,
+                                -14.66
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -14.66,
+                            "curve": [
+                                0.889,
+                                -14.66,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_7": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.156,
+                                21.62
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 21.62,
+                            "curve": [
+                                0.344,
+                                21.62,
+                                0.456,
+                                -14.44
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": -14.44,
+                            "curve": [
+                                0.656,
+                                -14.44,
+                                0.744,
+                                13.82
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 13.82,
+                            "curve": [
+                                0.889,
+                                13.82,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_8": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.044,
+                                0,
+                                0.089,
+                                14.36
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 14.36,
+                            "curve": [
+                                0.244,
+                                14.36,
+                                0.356,
+                                -21.82
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -21.82,
+                            "curve": [
+                                0.556,
+                                -21.82,
+                                0.644,
+                                11.63
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": 11.63,
+                            "curve": [
+                                0.822,
+                                11.63,
+                                0.911,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_3": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.074,
+                                0,
+                                0.093,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 24.89,
+                            "curve": [
+                                0.241,
+                                24.89,
+                                0.259,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -13.65,
+                            "curve": [
+                                0.389,
+                                -13.65,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.617,
+                                0,
+                                0.618,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 24.89,
+                            "curve": [
+                                0.741,
+                                24.89,
+                                0.759,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -13.65,
+                            "curve": [
+                                0.889,
+                                -13.65,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_4": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -29.72,
+                            "curve": [
+                                0.222,
+                                -29.72,
+                                0.278,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 10.31,
+                            "curve": [
+                                0.389,
+                                10.31,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.561,
+                                0,
+                                0.616,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -29.72,
+                            "curve": [
+                                0.722,
+                                -29.72,
+                                0.778,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 10.31,
+                            "curve": [
+                                0.889,
+                                10.31,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "body2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.027,
+                                0,
+                                0.089,
+                                0,
+                                0.027,
+                                -4.77,
+                                0.089,
+                                -14.45
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -14.45,
+                            "curve": [
+                                0.233,
+                                0,
+                                0.333,
+                                0,
+                                0.233,
+                                -14.45,
+                                0.333,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "y": 4.93,
+                            "curve": [
+                                0.511,
+                                0,
+                                0.589,
+                                0,
+                                0.511,
+                                4.93,
+                                0.589,
+                                -6.92
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": -6.92,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.778,
+                                0,
+                                0.722,
+                                -6.92,
+                                0.778,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": 4.93,
+                            "curve": [
+                                0.889,
+                                0,
+                                0.967,
+                                0,
+                                0.889,
+                                4.93,
+                                0.967,
+                                1.63
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94,
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.94,
+                            "y": 0.94,
+                            "curve": [
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2,
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066,
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "butterfly2": {
+                    "scale": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },"win": {
+            "slots": {
+                "banner_rays": {
+                    "rgba2": [
+                        {
+                            "light": "06fff800",
+                            "dark": "0c7eff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "light": "06fff8ff",
+                            "dark": "0c7eff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "light": "06fff8ff",
+                            "dark": "0c7eff"
+                        },
+                        {
+                            "time": 1,
+                            "light": "06fff800",
+                            "dark": "0c7eff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "banner_rays"
+                        }
+                    ]
+                },
+                "bg2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "bg"
+                        }
+                    ]
+                },
+                "body4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "body"
+                        }
+                    ]
+                },
+                "glow_frame": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "glow_frame"
+                        }
+                    ]
+                },
+                "particles": {
+                    "rgba2": [
+                        {
+                            "light": "a4fffc00",
+                            "dark": "00fff1"
+                        },
+                        {
+                            "time": 0.2,
+                            "light": "a4fffcff",
+                            "dark": "00fff1",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "light": "a4fffcff",
+                            "dark": "00fff1"
+                        },
+                        {
+                            "time": 1,
+                            "light": "a4fffc00",
+                            "dark": "00fff1"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "particles"
+                        }
+                    ]
+                },
+                "smoke": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "smoke"
+                        }
+                    ]
+                },
+                "smoke2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "smoke"
+                        }
+                    ]
+                },
+                "wing_13": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_1"
+                        }
+                    ]
+                },
+                "wing_14": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_2"
+                        }
+                    ]
+                },
+                "wing_15": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_3"
+                        }
+                    ]
+                },
+                "wing_16": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wing_4"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "banner_rays": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": -8.55
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 10.56,
+                            "y": -2.06
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.487,
+                            "y": 0.487
+                        }
+                    ]
+                },
+                "particles": {
+                    "translate": [
+                        {
+                            "y": 5.41
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.25,
+                            "y": 16.23
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.495,
+                            "y": 0.495
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.697,
+                            "y": 0.697
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.798,
+                            "y": 0.798
+                        }
+                    ]
+                },
+                "smoke": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": -9.64
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 7.39
+                        },
+                        {
+                            "time": 1,
+                            "x": 7.39,
+                            "y": 8.15
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.387,
+                            "y": 1.767
+                        },
+                        {
+                            "time": 1,
+                            "x": 2.159,
+                            "y": 2.751
+                        }
+                    ]
+                },
+                "body": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.027,
+                                0,
+                                0.089,
+                                0,
+                                0.027,
+                                -4.77,
+                                0.089,
+                                -14.45
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -14.45,
+                            "curve": [
+                                0.233,
+                                0,
+                                0.333,
+                                0,
+                                0.233,
+                                -14.45,
+                                0.333,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "y": 4.93,
+                            "curve": [
+                                0.511,
+                                0,
+                                0.589,
+                                0,
+                                0.511,
+                                4.93,
+                                0.589,
+                                -6.92
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": -6.92,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.778,
+                                0,
+                                0.722,
+                                -6.92,
+                                0.778,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": 4.93,
+                            "curve": [
+                                0.889,
+                                0,
+                                0.967,
+                                0,
+                                0.889,
+                                4.93,
+                                0.967,
+                                1.63
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94,
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.94,
+                            "y": 0.94,
+                            "curve": [
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2,
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066,
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_1": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.044,
+                                0,
+                                0.089,
+                                14.36
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 14.36,
+                            "curve": [
+                                0.244,
+                                14.36,
+                                0.356,
+                                -21.82
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -21.82,
+                            "curve": [
+                                0.556,
+                                -21.82,
+                                0.644,
+                                11.63
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": 11.63,
+                            "curve": [
+                                0.822,
+                                11.63,
+                                0.911,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_2": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.156,
+                                21.62
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 21.62,
+                            "curve": [
+                                0.344,
+                                21.62,
+                                0.456,
+                                -14.44
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": -14.44,
+                            "curve": [
+                                0.656,
+                                -14.44,
+                                0.744,
+                                13.82
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 13.82,
+                            "curve": [
+                                0.889,
+                                13.82,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_3": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -15.59
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -15.59,
+                            "curve": [
+                                0.256,
+                                -15.59,
+                                0.344,
+                                22.74
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "value": 22.74,
+                            "curve": [
+                                0.522,
+                                22.74,
+                                0.611,
+                                -13.01
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": -13.01,
+                            "curve": [
+                                0.8,
+                                -13.01,
+                                0.9,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_4": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.1,
+                                0,
+                                0.2,
+                                -23.21
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -23.21,
+                            "curve": [
+                                0.389,
+                                -23.21,
+                                0.478,
+                                18.37
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 18.37,
+                            "curve": [
+                                0.656,
+                                18.37,
+                                0.744,
+                                -14.66
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -14.66,
+                            "curve": [
+                                0.889,
+                                -14.66,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_2": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.074,
+                                0,
+                                0.093,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 24.89,
+                            "curve": [
+                                0.241,
+                                24.89,
+                                0.259,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -13.65,
+                            "curve": [
+                                0.389,
+                                -13.65,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.617,
+                                0,
+                                0.618,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 24.89,
+                            "curve": [
+                                0.741,
+                                24.89,
+                                0.759,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -13.65,
+                            "curve": [
+                                0.889,
+                                -13.65,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_1": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -29.72,
+                            "curve": [
+                                0.222,
+                                -29.72,
+                                0.278,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 10.31,
+                            "curve": [
+                                0.389,
+                                10.31,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.561,
+                                0,
+                                0.616,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -29.72,
+                            "curve": [
+                                0.722,
+                                -29.72,
+                                0.778,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 10.31,
+                            "curve": [
+                                0.889,
+                                10.31,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_5": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -15.59
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -15.59,
+                            "curve": [
+                                0.256,
+                                -15.59,
+                                0.344,
+                                22.74
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "value": 22.74,
+                            "curve": [
+                                0.522,
+                                22.74,
+                                0.611,
+                                -13.01
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": -13.01,
+                            "curve": [
+                                0.8,
+                                -13.01,
+                                0.9,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_6": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.1,
+                                0,
+                                0.2,
+                                -23.21
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -23.21,
+                            "curve": [
+                                0.389,
+                                -23.21,
+                                0.478,
+                                18.37
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 18.37,
+                            "curve": [
+                                0.656,
+                                18.37,
+                                0.744,
+                                -14.66
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -14.66,
+                            "curve": [
+                                0.889,
+                                -14.66,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_7": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.156,
+                                21.62
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 21.62,
+                            "curve": [
+                                0.344,
+                                21.62,
+                                0.456,
+                                -14.44
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": -14.44,
+                            "curve": [
+                                0.656,
+                                -14.44,
+                                0.744,
+                                13.82
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 13.82,
+                            "curve": [
+                                0.889,
+                                13.82,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "wing_8": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.044,
+                                0,
+                                0.089,
+                                14.36
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 14.36,
+                            "curve": [
+                                0.244,
+                                14.36,
+                                0.356,
+                                -21.82
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -21.82,
+                            "curve": [
+                                0.556,
+                                -21.82,
+                                0.644,
+                                11.63
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": 11.63,
+                            "curve": [
+                                0.822,
+                                11.63,
+                                0.911,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_3": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.074,
+                                0,
+                                0.093,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 24.89,
+                            "curve": [
+                                0.241,
+                                24.89,
+                                0.259,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -13.65,
+                            "curve": [
+                                0.389,
+                                -13.65,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.617,
+                                0,
+                                0.618,
+                                24.89
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 24.89,
+                            "curve": [
+                                0.741,
+                                24.89,
+                                0.759,
+                                -13.65
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -13.65,
+                            "curve": [
+                                0.889,
+                                -13.65,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "antenna_4": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.056,
+                                0,
+                                0.111,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -29.72,
+                            "curve": [
+                                0.222,
+                                -29.72,
+                                0.278,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 10.31,
+                            "curve": [
+                                0.389,
+                                10.31,
+                                0.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.561,
+                                0,
+                                0.616,
+                                -29.72
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -29.72,
+                            "curve": [
+                                0.722,
+                                -29.72,
+                                0.778,
+                                10.31
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 10.31,
+                            "curve": [
+                                0.889,
+                                10.31,
+                                0.944,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "body2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.027,
+                                0,
+                                0.089,
+                                0,
+                                0.027,
+                                -4.77,
+                                0.089,
+                                -14.45
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -14.45,
+                            "curve": [
+                                0.233,
+                                0,
+                                0.333,
+                                0,
+                                0.233,
+                                -14.45,
+                                0.333,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "y": 4.93,
+                            "curve": [
+                                0.511,
+                                0,
+                                0.589,
+                                0,
+                                0.511,
+                                4.93,
+                                0.589,
+                                -6.92
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": -6.92,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.778,
+                                0,
+                                0.722,
+                                -6.92,
+                                0.778,
+                                4.93
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": 4.93,
+                            "curve": [
+                                0.889,
+                                0,
+                                0.967,
+                                0,
+                                0.889,
+                                4.93,
+                                0.967,
+                                1.63
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94,
+                                0.027,
+                                0.98,
+                                0.089,
+                                0.94
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.94,
+                            "y": 0.94,
+                            "curve": [
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2,
+                                0.233,
+                                0.94,
+                                0.333,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066,
+                                0.889,
+                                1.2,
+                                0.967,
+                                1.066
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "butterfly2": {
+                    "scale": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        }
+        
+    }
+}

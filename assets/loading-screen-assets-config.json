@@ -1,0 +1,20 @@
+{
+  "layouts": [
+    {
+      "name": "loading-screen",
+      "url": "./layouts/loading-screen.json"
+    }
+  ],
+  "textures": [
+    {
+      "name": "loading-screen-0",
+      "url": "./images/loading-screen-0.json"
+    },
+    {
+      "name": "loadingBg",
+      "url": "./images/loading-screen-bcg.webp"
+    }
+  ],
+  "sounds": [],
+  "fonts": []
+}

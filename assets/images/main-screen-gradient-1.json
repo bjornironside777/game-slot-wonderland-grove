@@ -1,0 +1,207 @@
+{
+  "frames": {
+    "reel": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 1239,
+        "h": 1043
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1239,
+        "h": 1043
+      },
+      "sourceSize": {
+        "w": 1239,
+        "h": 1043
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "buy-freespins-background": {
+      "frame": {
+        "x": 1242,
+        "y": 1,
+        "w": 686,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 686,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 686,
+        "h": 444
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "paytable_desktop_bcg": {
+      "frame": {
+        "x": 1,
+        "y": 1046,
+        "w": 1210,
+        "h": 859
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1210,
+        "h": 859
+      },
+      "sourceSize": {
+        "w": 1210,
+        "h": 859
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adjustbet-panel-bcg":{
+      "frame": {
+        "x": 1,
+        "y": 1046,
+        "w": 1210,
+        "h": 859
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1210,
+        "h": 859
+      },
+      "sourceSize": {
+        "w": 1210,
+        "h": 859
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+  "popup-background": {
+      "frame": {
+        "x": 1,
+        "y": 1046,
+        "w": 1210,
+        "h": 859
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1210,
+        "h": 859
+      },
+      "sourceSize": {
+        "w": 1210,
+        "h": 859
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "character": {
+      "frame": {
+        "x": 1213,
+        "y": 1046,
+        "w": 420,
+        "h": 825
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 420,
+        "h": 825
+      },
+      "sourceSize": {
+        "w": 420,
+        "h": 825
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "logo": {
+      "frame": {
+        "x": 1,
+        "y": 1907,
+        "w": 375,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 375,
+        "h": 126
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "buy_freespin_button": {
+      "frame": {
+        "x": 1213,
+        "y": 1468,
+        "w": 308,
+        "h": 438
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 308,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 308,
+        "h": 438
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "main-screen-gradient-1.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2039,
+      "h": 2034
+    },
+    "scale": 1
+  }
+}

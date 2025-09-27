@@ -1,0 +1,70 @@
+low_payout_5.webp
+	size: 411, 532
+	filter: Linear, Linear
+Particals_Blast/Particals_Blast_1
+	bounds: 379, 3, 26, 28
+	offsets: 57, 53, 144, 144
+Particals_Blast/Particals_Blast_10
+	bounds: 128, 40, 79, 81
+	offsets: 29, 25, 144, 144
+Particals_Blast/Particals_Blast_11
+	bounds: 268, 124, 87, 89
+	offsets: 25, 21, 144, 144
+	rotate: 90
+Particals_Blast/Particals_Blast_12
+	bounds: 292, 213, 96, 97
+	offsets: 20, 17, 144, 144
+	rotate: 90
+Particals_Blast/Particals_Blast_13
+	bounds: 292, 311, 106, 108
+	offsets: 15, 11, 144, 144
+Particals_Blast/Particals_Blast_14
+	bounds: 292, 421, 115, 109
+	offsets: 10, 13, 144, 144
+Particals_Blast/Particals_Blast_15
+	bounds: 140, 128, 126, 126
+	offsets: 5, 1, 144, 144
+Particals_Blast/Particals_Blast_16
+	bounds: 2, 123, 136, 131
+	offsets: 0, 0, 144, 144
+Particals_Blast/Particals_Blast_2
+	bounds: 347, 3, 28, 30
+	offsets: 56, 52, 144, 144
+	rotate: 90
+Particals_Blast/Particals_Blast_3
+	bounds: 371, 88, 34, 35
+	offsets: 53, 49, 144, 144
+Particals_Blast/Particals_Blast_4
+	bounds: 330, 82, 39, 40
+	offsets: 50, 46, 144, 144
+Particals_Blast/Particals_Blast_5
+	bounds: 347, 33, 45, 47
+	offsets: 47, 43, 144, 144
+Particals_Blast/Particals_Blast_6
+	bounds: 359, 159, 50, 52
+	offsets: 44, 40, 144, 144
+Particals_Blast/Particals_Blast_7
+	bounds: 209, 66, 57, 60
+	offsets: 40, 36, 144, 144
+Particals_Blast/Particals_Blast_8
+	bounds: 209, 2, 62, 65
+	offsets: 38, 33, 144, 144
+	rotate: 90
+Particals_Blast/Particals_Blast_9
+	bounds: 276, 5, 69, 73
+	offsets: 34, 29, 144, 144
+banner_rays
+	bounds: 2, 256, 288, 274
+	offsets: 100, 12, 472, 296
+flower_1
+	bounds: 2, 29, 124, 92
+leaf_1
+	bounds: 128, 8, 31, 30
+	offsets: 1, 1, 33, 32
+leaf_2
+	bounds: 268, 80, 60, 42
+leaf_3
+	bounds: 359, 125, 50, 32
+	offsets: 0, 0, 50, 35
+stem
+	bounds: 268, 214, 11, 40

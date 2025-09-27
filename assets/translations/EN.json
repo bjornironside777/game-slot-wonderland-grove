@@ -1,0 +1,368 @@
+{
+	"introTextDesktop": "",
+	"introTextMobile": "",
+	"autoplay": "AUTO",
+	"stopAutoplay": "STOP",
+	"turbo": "TURBO",
+	"paytable": {
+		"page1": {
+			"title": "HEADER",
+			"tf0": "Semboller ekrandaki her yere ödeme yapar. Bir spinin sonunda ekrandaki aynı sembolün toplam\nsayısı, kazanma değerini belirler.",
+			"item2": "These are the WILD symbols\nand substitutes for all symbols\nexcept for BONUS symbol.\nThey can appear on reels\n2, 3 and 4.",
+			"item3": "This is the BONUS symbol.\nIt can appear on all reels."
+		},
+		"page2": {
+			"title": "WILD WITH MULTIPLIER",
+			"tf0": "At any spin all WILD symbols that hit on screen can\ncarry a random multiplier of 2x, 3x, 5x, or 10x.\nThe Split WILD symbol can carry a random\nmultiplier on each side Multipliers apply to winning\ncombinations that they are part of. If there are\nmultiple multiplier part of the same winning\ncombinations they are added together",
+			"tf1": "FREE SPINS",
+			"tf2": "Hit 3, 4 or 5 or more BONUS symbols to trigger\nthe FREE SPINS round and win 10, 15 or 25\nfree spins respectively. During the round\nhit 3, 4 or 5 or more BONUS symbols to retrigger\nthe feature and win 10, 15 or 25 more free spins\nrespectively. Special reels are in play during the\nfree spins round.",
+			"tf3": "MAX WIN",
+			"tf4": "The maximum win amount is limited to 14,000x bet\nin both base game and free spins. If the total\nwin of a FREE SPINS round reaches 14,000x bet\nthe round immediately ends, win is awarded and all\nremaining free spins are forfeited",
+			"tf5": "BUY FREE SPINS",
+			"tf6": "The FREE SPINS round can be instantly triggered\nfrom the base game by buying it for 100x\ncurrent total bet. When buying the FREE SPINS\nround, on the triggering spin 3, 4 or 5 or more\nBONUS symbols can hit randomly.\nDuring the round hit 2, 3, 4 or 5 or more BONUS\nsymbols to retrigger the feature and win 3,\n10, 15, 25 or more free spin respectively."
+		},
+		"page3": {
+			"title": "AUTOPLAY",
+			"tf0": "Click on the buttons showing the\n number of possible auto-spins to start \nAutoplay",
+			"tf1": "SKIP SCREENS option auto-skips the \nfeature introduction and end \nscreens after a short period of time"
+		},
+		"page4": {
+			"title": "GAME RULES",
+			"tf0": "High volatility games pay out less often on average but\nthe chance to hit big wins in a short time span is higher.\n\n\nAll Symbols pay from left to right on selected payways.\nFree spins win is added to the payway win.\nAll wins are multiplied by the base bet.\nAll values are expressed as actual wind in coins.\nOnly the highest win is paid per way.\nWhen winning with multiple symbols, all wins are added to the total win.\n\nFree spins is awarded to the player after the round completes.\nFree spins total win in the history contains the whole win of the cycle.\n\nThe theoretical RTP of this game is 96.57%. \nWhen using \"BUY FREE SPINS,\" the RTP of the game is 96.57%.\n\nSPACE and ENTER buttons on the keyboard can be used to start and stop the spin.\nMalfunction voids all pays and plays.",
+			"tf1": "",
+			"tf2": "",
+			"tf3": "",
+			"tf4": "Free spins is awarded to the player after\nthe round completes. The total win from past\nFreespins includes the total win of the series.",
+			"tf5": "The theoretical RTP of this game is 96.57%. \nWhen using \"BUY FREE SPINS,\" the RTP of the game is 96.57%.",
+			"tfMinBet": "MINIMUM BET: ",
+            "tfMaxBet": "MAXIMUM BET: "
+		},
+		"page5": {
+			"title": "HOW TO PLAY",
+			"tf0": "Click the",
+			"textCombined1": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "or",
+				"icon2": "btn-bet-up-normal",
+				"part2": "buttons to change the bet value\nand open the bet menu."
+			},
+			"tf1": "Select the bet you want to use in the game.",
+			"tf2": "MAIN GAME INTERFACE",
+			"textCombined2": {
+				"icon1": "btn-settings",
+				"part1": " Opens the SETTINGS menu contains settings"
+			},
+			"tf3": "which affect the way the game is being played.",
+			"textCombined3": {
+				"icon1": "btn-info",
+				"part1": "Opens the Information page."
+			},
+			"tf4": "CREDIT and BET labels display\nthe current balance and the total bet. \nClick on the labels to switch between token\nview and cash view.",
+			"textCombined4": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "or",
+				"icon2": "btn-bet-up-normal",
+				"part2": "change up or down the current bet and open the bet menu,\n where you can change the bet denominations. "
+			},
+			"tf5": "",
+			"tf6": "",
+			"tf7": "",
+			"textCombined5": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "Starts the game"
+			}
+		},
+		"page6": {
+			"title": "SETTINGS MENU",
+			"tf0": "QUICK SPIN - Select the Quick Spin setting from game\nreels to start automatically and stop as soon released\n\nINTRO SCREEN - toggles the introductory screen\non and off\n\nAMBIENCE - toggles the ambient sound and music in\nthe game on and off\n\nSOUND EFFECTS - Turns the game's sound effects\non and off\n\nGAME HISTORY - Opens the game history page",
+			"tf1": "INFORMATION SCREEN",
+			"textCombined1": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "and",
+				"icon2": "btn-bet-up-normal",
+				"part2": "scroll between information pages.\n\n close the information screen"
+			},
+			"tf2": "BET MENU",
+			"tf3": "The bet menu shows the bet multiplier available\nin the game, and the current\ntotal bet in both coins and cash.",
+			"tf4": "COIN VALUE fields to change the values.",
+			"textCombined2": {
+				"part1": "Use the",
+				"icon1": "btn-bet-down-normal",
+				"part2": "and",
+				"icon2": "btn-bet-up-normal",
+				"part3": "buttons in the BET and\n"
+			},
+			"tf5": "The maximum win amount is limited to 14000X bet.\nIf the total win nof a round reaches 14000X\nbet the round immediately ends, win is awarded up to\nthe cap and all remaining features are forfeited.",
+			"tf6": "",
+			"tf5_1": "The maximum win amount\nis limited to 5000 times the bet.",
+			"tf6_1": "A round yields up to 4 DP,\nand all remaining features are lost."
+		}
+	},
+	"paytableDesktop": {
+		"page1": {
+			"title": "GAME RULES",
+			"tf0": "All Symbols pay from left to right on adjacent reels starting from the leftmost reel.\n Whenever a split symbol appears on the winning line,it multiplies the total win by x2.",
+			"item2": "These are the WILD symbols\nand substitutes for all symbols\nexcept for BONUS symbol.\nThey can appear on reels 2, 3\nand 4.",
+			"item3": "This is the BONUS symbol.\nIt can appear on all reels."
+		},
+		"page2": {
+			"title": "WILD WITH MULTIPLIER",
+			"tf0": "At any spin all WILD symbols that hit on screen can carry a random multiplier of 2x, 3x, 5x, or 10x.\nThe Split WILD symbol can carry a random multiplier on each side. Multipliers apply to winning\ncombinations that they are part of. If there are multiple multiplier part of the same winning\ncombinations they are added together",
+			"tf1": "FREE SPINS",
+			"tf2": "Hit 3, 4 or 5 or more BONUS symbols to trigger the FREE SPINS round and win 10, 15 or 25 free spins \nrespectively.During the round hit 3, 4 or 5 or more BONUS symbols to retrigger the feature and win\n10, 15 or 25 more free spins respectively. Special reels are in play during the free spins round.",
+			"tf3": "MAX WIN",
+			"tf4": "The maximum win amount is limited to 14,000x bet in both base game and free spins.\nIf the total win of a FREE SPINS round reaches 14,000x bet the round immediately\nends, win is awarded and all remaining free spins are forfeited.",
+			"tf5": "BUY FREE SPINS",
+			"tf6": "The FREE SPINS round can be instantly triggered from the base game by buying it for 100x\n current total bet.When buying the FREE SPINS round, on the triggering spin 3, 4 or 5\n or more BONUS symbols can hit randomly.During the round hit 2, 3, 4 or 5 or more BONUS\n symbols to retrigger the feature and win 3,10, 15, 25 or more free spin respectively."
+		},
+		"page3": {
+			"title": "AUTOPLAY",
+			"tf0": "Click on the buttons showing the number of possible auto-spins to start Autoplay.",
+			"tf1": "SKIP SCREENS option auto-skips the feature introduction and end screens after a short period of time."
+		},
+		"page4": {
+			"title": "GAME RULES",
+			"tf0": "High volatility games pay out less often on average but\nthe chance to hit big wins in a short time span is higher.\n\n\nAll Symbols pay from left to right on selected payways.\nFree spins win is added to the payway win.\nAll wins are multiplied by the base bet.\nAll values are expressed as actual wind in coins.\nOnly the highest win is paid per way.\nWhen winning with multiple symbols, all wins are added to the total win.\n\nFree spins is awarded to the player after the round completes.\nFree spins total win in the history contains the whole win of the cycle.\n\nThe theoretical RTP of this game is 96.57%. \nWhen using \"BUY FREE SPINS,\" the RTP of the game is 96.57%.\n\nSPACE and ENTER buttons on the keyboard can be used to start and stop the spin.\nMalfunction voids all pays and plays.",
+			"tf1": "",
+			"tf2": "",
+			"tf3": "",
+			"tf4": "",
+			"tf5": "",
+			"tfMinBet": "MINIMUM BET: ",
+            "tfMaxBet": "MAXIMUM BET: "
+		},
+		"page5": {
+			"title": "HOW TO PLAY",
+			"textCombined1": {
+				"part1": "Click the",
+				"icon1": "btn-bet-down-normal",
+				"part2": "or",
+				"icon2": "btn-bet-up-normal",
+				"part3": "buttons to change the bet value and open the bet menu."
+			},
+			"tf0": "Select the bet you want to use in the game.",
+			"tf1": "MAIN GAME INTERFACE",
+			"textCombined2": {
+				"icon1": "btn-settings",
+				"part1": " Opens the SETTINGS menu contains settings which affect the way the game is being played."
+			},
+			"textCombined3": {
+				"icon1": "btn-info",
+				"part1": "Opens the Information page."
+			},
+			"tf2": "CREDIT and BET labels display the current balance and current total bet. \nClick on the labels to switch between coins view and cash view.",
+			"textCombined4": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "and",
+				"icon2": "btn-bet-up-normal",
+				"part2": "change up or down the current bet and open the bet menu,\n where you can change the bet denominations."
+			},
+			"tf3": "",
+			"tf4": "",
+			"textCombined5": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "Starts the game."
+			},
+			"textCombined6": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "opens the automatic play menu."
+			}
+		},
+		"page6": {
+			"title": "SETTINGS MENU",
+			"tf0": "QUICK SPIN - Select the Quick Spin setting from game reels to start automatically and stop as soon released.\n\nINTRO SCREEN - toggles the introductory screen on and off.\n\nAMBIENCE - toggles the ambient sound and music in the game on and off.\n\nSOUND EFFECTS - Turns the game's sound effects on and off.\n\nGAME HISTORY - Opens the game history page.",
+			"tf1": "INFORMATION SCREEN",
+			"textCombined1": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "and",
+				"icon2": "btn-bet-up-normal",
+				"part2": "scroll between information pages."
+			},
+			"textCombined6": {
+				"icon1": "btn-bet-down-normal",
+				"part1": "closes the information screen."
+			},
+			"tf2": "BET MENU",
+			"tf3": "The bet menu shows the bet multiplier available in the game, and the current total bet in both coins and cash.",
+			"textCombined2": {
+				"part1": "Use the",
+				"icon1": "btn-bet-down-normal",
+				"part2": "and",
+				"icon2": "btn-bet-up-normal",
+				"part3": "buttons in the BET and COIN VALUE fields to change the values."
+			},
+			"tf4": "The maximum win amount is limited to 14000X bet. If the total win\nof a round reaches 14000X bet the round immediately ends, win is\nawarded up to the cap and all remaining features are forfeited.",
+			"tf5": "",
+			"tf41": "The maximum win amount is limited to 5000 times the bet.",
+			"tf51": "A round yields up to 4 DP, and all remaining features are lost."
+		}
+	},
+	"systemSettings": {
+		"title": "SYSTEM SETTINGS",
+		"switchModule": {
+			"switch_module_1": {
+				"tf": "QUICK SPIN",
+				"desc": "PLAY FASTER BY REDUCING TOTAL SPIN TIME"
+			},
+			"switch_module_2": {
+				"tf": "BATTERY SAVER",
+				"desc": "SAVE BATTERY LIFE BY REDUCING ANIMATION SPEED"
+			},
+			"switch_module_3": {
+				"tf": "AMBIENT MUSIC",
+				"desc": "TURN ON OR OFF THE GAME MUSIC"
+			},
+			"switch_module_4": {
+				"tf": "SOUND FX",
+				"desc": "TURN ON OR OFF THE GAME SOUNDS"
+			},
+			"switch_module_5": {
+				"tf": "INTRO SCREEN",
+				"desc": "SKIPS INTRO SCREEN"
+			}
+		},
+		"betSettings": {
+			"tfTotalBet": "TOTAL BET"
+		},
+		"linkModule": {
+			"tfGameHistory": "GAME HISTORY",
+			"tfHome": "HOME"
+		},
+		"tfSettings": "GENERAL SETTINGS",
+		"tfBetSettings": "BET SETTINGS"
+	},
+	"adjustBet": {
+		"title": "BET MULTIPLIER",
+		"tfBet": "BET",
+		"tfCoinValue": "COIN VALUE",
+		"tfTotalBet": "TOTAL BET",
+		"btnMax": "MAXIMUM BET",
+		"tfCredit": "CREDIT",
+		"tfCreditBet": "BET"
+	},
+	"history": {
+		"title": "HISTORY",
+		"tfdate": "DATE",
+		"tftotalBet": "TOTAL BET",
+		"tfwin": "WIN",
+		"tfbalance": "BALANCE",
+		"tfpages": "No history entries"
+	},
+	"autoSpin": {
+		"title": "Autoplay Settings",
+		"tfSpin": "TURBO SPIN",
+		"tfSkipScreen": "SKIP THE SCREEN",
+		"tfSpinCount": "AUTO SPIN NUMBER",
+		"tfStop": "Stop Settings",
+		"tfAnyWin": "On any win",
+		"tfBonusWon": "If bonus game is won",
+		"tfSingleWin": "If single win exceeds",
+		"tfCashBalance": "If cash balance increases by",
+		"tfCashBalanceDec": "If cash balance decreases by",
+		"tfConfirm": "AUTO START",
+		"tfSpinSettings": "Spin Settings",
+		"tfStopSettings": "Stop Settings",
+		"tfInputPlaceHolder": "Enter Amount"
+	},
+	"freeSpins": {
+		"buy": "BUY\nFREE\nSPINS",
+		"buy1": "BUY\nFREE SPINS",
+		"left": "FREE\nSPINS\nLEFT",
+		"freeSpin": "FREE SPINS",
+		"youHaveLeft": "YOU HAVE LEFT",
+		"youHaveWon": "YOU HAVE WON",
+		"PressAny": "PRESS ANYWHERE TO CONTINUE",
+		"freeSpinEnd": "FREE SPINS" 
+	},
+	"doubleChance": {
+		"bet": "BET",
+		"double": "DOUBLE",
+		"description": "CHANCE TO\n WIN FEATURE",
+		"doubleChance": "DOUBLE CHANCE"
+	},
+	"bonusSpins": {
+    "tfTitle": "Free Bonus",
+    "tfBonusReceived1": "You Have Received",
+    "tfBonusReceived2": "Spins!",
+    "tfBonusLeft1": "You Have",
+    "tfBonusLeft2": " Spins Left!",
+    "tfBonusCompleted": "You Have Completed Your Spins!",
+    "tfBonusCompletedMobile": "You Have Completed\nYour Spins!",
+    "tfBonusMessage": "You can use your bonus spins now or choose to use them\nlater until expiry.",
+    "tfBonusMessageMobile": "You can use your bonus spins now or choose\nto use them later until expiry.",
+    "tfExpiresIn": "EXPIRES AFTER:",
+    "tfDays": "DAYS",
+	"in": "IN",
+    "tfDay": "DAY",
+    "tfHours": "HOURS",
+    "tfHour": "HOUR",
+    "tfPlayLater": "PLAY LATER",
+    "tfPlayNow": "PLAY NOW",
+    "tfFreeBonus": "FREE BONUS",
+    "tfRemaining": "Remaining",
+    "tfEarning": "EARNING",
+    "tfTotalEarnings": "TOTAL EARNINGS",
+    "tfContinue": "CONTINUE"
+  },
+	"tfWinUpTo": "WIN UP TO 5000 X BET",
+	"tfGoodLuck": "GOOD LUCK",
+	"tfWin": "",
+	"tfDesktopWin": "WIN",
+	"tfHoldSpace": "Hold down the spacebar for\n turbo spin",
+	"tfHoldSpin": "HOLD SPIN BUTTON FOR TURBO",
+	"tfCredit": "BALANCE",
+	"tfbet": "TOTAL BET",
+	"errorMessages": {
+		"NO_RUNNING_ROUND_FOUND": "NO ACTIVE ROUND FOUND",
+		"NO_PLACED_BET_FOUND": "NO BETS PLACED",
+		"USER_DOES_NOT_EXISTS": "USER NOT FOUND",
+		"INVALID_OPERATOR_ID": "INVALID OPERATOR ID PROVIDED",
+		"INVALID_CURRENCY_CODE": "INVALID CURRENCY CODE",
+		"OPERATOR_UNREACHABLE": "CANNOT CONNECT TO OPERATOR",
+		"OPERATOR_UNAVAILABLE": "OPERATOR IS UNAVAILABLE",
+		"MISSING_TOKEN": "AUTHENTICATION TOKEN IS MISSING",
+		"RGS_USER_MISSING_TOKEN": "TOKEN MISSING FOR RGS USER",
+		"USER_NOT_FOUND": "USER NOT FOUND",
+		"USER_BLOCKED_FROM_SENDING_MESSAGES": "USER BLOCKED FROM MESSAGING",
+		"EXCEEDS_MESSAGE_LENGTH": "MESSAGE IS TOO LONG",
+		"INVALID_AUTO_RATE": "INVALID AUTO RATE VALUE",
+		"BET_AMOUNT_NOT_IN_LIMIT": "BET AMOUNT IS OUT OF LIMITS",
+		"BLOCKED_TRANSACTION": "TRANSACTION IS BLOCKED",
+		"INVALID_TOKEN": "INVALID AUTHENTICATION TOKEN",
+		"INSUFFICIENT_FUNDS": "NOT ENOUGH FUNDS",
+		"TRANSACTION_ALREADY_PROCESSED": "TRANSACTION ALREADY COMPLETED",
+		"SERVER_SEED_NOT_FOUND": "SERVER SEED NOT FOUND",
+		"UNFINISHED_SLOT_GAME_BET_EXISTS": "UNFINISHED SLOT GAME BET EXISTS",
+		"BASE_SLOT_GAME_BET_NOT_EXISTS": "BASE SLOT GAME BET NOT FOUND",
+		"INVALID_GAME_ID": "INVALID GAME ID",
+		"NOT_ENOUGH_BALANCE": "BALANCE TOO LOW",
+		"INVALID_TYPE": "INVALID TYPE SPECIFIED",
+		"INVALID_ROUND_TYPE": "INVALID ROUND TYPE",
+		"INVALID_BET_DETAILS": "BET DETAILS ARE INVALID",
+		"INVALID_SEED": "SEED VALUE IS INVALID",
+		"PLEASE_CONTACT_OPERATOR": "CONTACT OPERATOR FOR HELP",
+		"BET_AMOUNT_BELOW_MIN_RANGE": "BET AMOUNT IS TOO LOW",
+		"BET_AMOUNT_EXCEEDS_MAX_RANGE": "BET AMOUNT EXCEEDS MAX LIMIT",
+		"PREVIOUS_BET_NOT_COMPLETED": "PREVIOUS BET IS NOT COMPLETE",
+		"BET_CAN_NOT_BE_SPLITTED": "BET CANNOT BE SPLIT",
+		"BET_CAN_NOT_BE_ENSURED": "BET CANNOT BE ENSURED",
+		"BET_CAN_NOT_BE_DOUBLED": "BET CANNOT BE DOUBLED",
+		"CURRENCY_NOT_SUPPORTED_FOR_LINE_BET": "CURRENCY NOT SUPPORTED FOR THIS BET",
+		"SIGNATURE_NOT_VERIFIED": "SIGNATURE VERIFICATION FAILED",
+		"USER_IS_BLOCKED": "USER IS BLOCKED",
+		"UNKNOWN_OPERATOR_ERROR": "UNKNOWN ERROR WITH OPERATOR",
+		"UNKNOWN_RGS_ERROR": "UNKNOWN ERROR IN RGS",
+		"OPERATOR_NETWORK_FAILURE": "NETWORK ISSUE WITH OPERATOR",
+		"INVALID_ROUND_HASH": "ROUND HASH IS INVALID",
+		"PLEASE_CONSIDER_DENYING_OR_ACCEPTING_INSURANCE": "CHOOSE TO ACCEPT OR DENY INSURANCE",
+		"INVALID_MINE_COUNT": "MINE COUNT IS INVALID",
+		"USER_SESSION_EXPIRED": "SESSION HAS EXPIRED",
+		"USER_SESSION_MISSING": "SESSION IS MISSING",
+		"RGS_UNREACHABLE": "RGS IS UNREACHABLE",
+		"RGS_NETWORK_FAILURE": "NETWORK ISSUE WITH RGS",
+		"RGS_ERROR_CHECK_LOGS": "RGS ERROR, CHECK LOGS",
+		"CURRENCY_CODE_MISSING": "CURRENCY CODE IS MISSING",
+		"CONNECTION_LOST": "CONNECTION LOST"
+	},
+	"tfReload": "reload"
+}

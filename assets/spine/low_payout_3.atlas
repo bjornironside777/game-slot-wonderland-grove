@@ -1,0 +1,14 @@
+low_payout_3.webp
+	size: 471, 292
+	filter: Linear, Linear
+banner_rays
+	bounds: 2, 2, 288, 274
+	offsets: 100, 12, 472, 296
+	rotate: 90
+fire_ember_particle
+	bounds: 278, 130, 191, 160
+	offsets: 9, 1, 200, 200
+wand_1
+	bounds: 278, 10, 118, 132
+	offsets: 1, 1, 120, 134
+	rotate: 90

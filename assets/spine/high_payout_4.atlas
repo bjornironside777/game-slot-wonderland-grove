@@ -1,0 +1,58 @@
+high_payout_4.webp
+	size: 1122, 580
+	filter: Linear, Linear
+antenna_1
+	bounds: 995, 105, 33, 40
+	offsets: 1, 1, 35, 42
+	rotate: 90
+antenna_1_glow
+	bounds: 986, 203, 15, 14
+	offsets: 2, 2, 20, 19
+antenna_2
+	bounds: 995, 2, 26, 37
+	offsets: 1, 1, 28, 39
+	rotate: 90
+antenna_2_glow
+	bounds: 1034, 14, 13, 14
+	offsets: 3, 2, 19, 19
+banner_rays
+	bounds: 2, 29, 603, 549
+	offsets: 161, 25, 939, 582
+bg
+	bounds: 607, 5, 192, 192
+	offsets: 1, 1, 194, 194
+body
+	bounds: 995, 30, 12, 52
+	offsets: 1, 1, 14, 54
+	rotate: 90
+double_frame
+	bounds: 1072, 100, 15, 173
+	offsets: 90, 11, 194, 194
+frame_1
+	bounds: 801, 5, 192, 192
+	offsets: 1, 1, 194, 194
+glow_frame
+	bounds: 986, 423, 134, 155
+	offsets: 32, 21, 194, 194
+particles
+	bounds: 607, 199, 379, 377
+	offsets: 215, 204, 800, 795
+	rotate: 90
+smoke
+	bounds: 986, 275, 146, 112
+	offsets: 10, 17, 176, 140
+	rotate: 90
+wing_1
+	bounds: 986, 219, 84, 54
+	offsets: 1, 1, 86, 56
+wing_2
+	bounds: 995, 44, 54, 59
+	offsets: 1, 1, 56, 61
+	rotate: 90
+wing_3
+	bounds: 1056, 17, 81, 53
+	offsets: 1, 1, 83, 55
+	rotate: 90
+wing_4
+	bounds: 995, 140, 52, 61
+	offsets: 1, 1, 54, 63

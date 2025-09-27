@@ -1,0 +1,105 @@
+bg.webp
+	size: 2027, 1607
+	filter: Linear, Linear
+base_fx/base_fx_0
+	bounds: 1211, 1074, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_1
+	bounds: 1614, 1074, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_10
+	bounds: 1211, 806, 402, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_11
+	bounds: 1615, 806, 402, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_12
+	bounds: 1211, 538, 403, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_13
+	bounds: 1616, 538, 404, 266
+	offsets: 80, 0, 640, 640
+base_fx/base_fx_14
+	bounds: 405, 272, 404, 266
+	offsets: 80, 0, 640, 640
+base_fx/base_fx_15
+	bounds: 811, 270, 404, 266
+	offsets: 80, 0, 640, 640
+base_fx/base_fx_16
+	bounds: 1217, 270, 403, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_17
+	bounds: 1622, 270, 403, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_18
+	bounds: 2, 4, 403, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_19
+	bounds: 811, 2, 403, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_2
+	bounds: 2, 811, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_20
+	bounds: 1216, 2, 403, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_21
+	bounds: 405, 809, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_22
+	bounds: 405, 1077, 401, 265
+	offsets: 82, 1, 640, 640
+base_fx/base_fx_23
+	bounds: 1211, 1342, 401, 263
+	offsets: 82, 3, 640, 640
+base_fx/base_fx_24
+	bounds: 2, 1345, 401, 260
+	offsets: 82, 6, 640, 640
+base_fx/base_fx_25
+	bounds: 405, 1344, 401, 261
+	offsets: 82, 5, 640, 640
+base_fx/base_fx_26
+	bounds: 808, 1343, 401, 262
+	offsets: 82, 4, 640, 640
+base_fx/base_fx_27
+	bounds: 1614, 1342, 401, 263
+	offsets: 82, 3, 640, 640
+base_fx/base_fx_28
+	bounds: 2, 1079, 401, 264
+	offsets: 82, 2, 640, 640
+base_fx/base_fx_29
+	bounds: 808, 1076, 401, 265
+	offsets: 82, 1, 640, 640
+base_fx/base_fx_3
+	bounds: 808, 808, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_4
+	bounds: 2, 543, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_5
+	bounds: 405, 541, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_6
+	bounds: 808, 540, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_7
+	bounds: 2, 275, 401, 266
+	offsets: 82, 0, 640, 640
+base_fx/base_fx_8
+	bounds: 407, 4, 402, 266
+	offsets: 81, 0, 640, 640
+base_fx/base_fx_9
+	bounds: 1621, 2, 402, 266
+	offsets: 81, 0, 640, 640
+
+bg_2.webp
+	size: 1924, 1924
+	filter: Linear, Linear
+basegame_bg
+	bounds: 2, 2, 1920, 1920
+
+bg_3.webp
+	size: 1924, 1924
+	filter: Linear, Linear
+freegame_bg
+	bounds: 2, 2, 1920, 1920
