@@ -1,0 +1,351 @@
+{
+	"layout": {
+		"children": [
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "loadingBg"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "loadingBg"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MaxFitContainerComponent"
+						},
+						"params": {
+							"name": "loadingBg",
+							"pivotX": 960,
+							"pivotY": 540
+						}
+					},
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "darphaLloading-filler-bg"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "darphaLogoFaded",
+							"x": 132,
+							"y": 700,
+							"scaleX": 1.4,
+							"scaleY": 1.4
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "loading-filler"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "darphaLogoBright",
+									"x": 658,
+									"y": 388
+								}
+							},
+							{
+								"cls": "starling.display.Quad",
+								"constructorParams": [
+									{
+										"name": "width",
+										"type": "Number",
+										"value": 620
+									},
+									{
+										"name": "height",
+										"type": "Number",
+										"value": 210
+									}
+								],
+								"customParams": {},
+								"params": {
+									"x": 31,
+									"y": 386,
+									"alpha": 1,
+									"color": "0xFF0000",
+									"name": "mask"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "darphaLogoContainer",
+							"x": -791,
+							"y": 157,
+							"scaleX": 1.4,
+							"scaleY": 1.4
+						}
+					},
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "ultimate-gaming-text"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "darphaDesc",
+							"x": 274,
+							"y": 1620,
+							"scaleX": 2,
+							"scaleY": 2
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "poweredBy"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "poweredBy"
+								}
+							},
+							{
+								"cls": "starling.display.Quad",
+								"constructorParams": [
+									{
+										"name": "width",
+										"type": "Number",
+										"value": 294
+									},
+									{
+										"name": "height",
+										"type": "Number",
+										"value": 76
+									}
+								],
+								"customParams": {},
+								"params": {
+									"alpha": 1,
+									"color": "0xFF0000",
+									"name": "mask",
+									"x": 308
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "poweredByContainer",
+							"x": 570,
+							"y": 1000,
+							"scaleX": 1.4,
+							"scaleY": 1.4
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {},
+				"params": {
+					"name": "vertical"
+				}
+			},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "loadingBg"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "loadingBg"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MaxFitContainerComponent"
+						},
+						"params": {
+							"name": "loadingBg",
+							"pivotX": 960,
+							"pivotY": 540
+						}
+					},
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "loading-filler-bg"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "darphaLogoFaded",
+							"x": 658,
+							"y": 388
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "loading-filler"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "darphaLogoBright",
+									"x": 658,
+									"y": 388
+								}
+							},
+							{
+								"cls": "starling.display.Quad",
+								"constructorParams": [
+									{
+										"name": "width",
+										"type": "Number",
+										"value": 620
+									},
+									{
+										"name": "height",
+										"type": "Number",
+										"value": 210
+									}
+								],
+								"customParams": {},
+								"params": {
+									"x": 31,
+									"y": 386,
+									"alpha": 1,
+									"color": "0xFF0000",
+									"name": "mask"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "darphaLogoContainer"
+						}
+					},
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "ultimate-gaming-text"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "darphaDesc",
+							"x": 820,
+							"y": 946
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "poweredBy"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "poweredBy"
+								}
+							},
+							{
+								"cls": "starling.display.Quad",
+								"constructorParams": [
+									{
+										"name": "width",
+										"type": "Number",
+										"value": 294
+									},
+									{
+										"name": "height",
+										"type": "Number",
+										"value": 76
+									}
+								],
+								"customParams": {},
+								"params": {
+									"alpha": 1,
+									"color": "0xFF0000",
+									"name": "mask",
+									"x": 308
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "poweredByContainer",
+							"x": 968,
+							"y": 602
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {},
+				"params": {
+					"name": "horizontal"
+				}
+			}
+		],
+		"cls": "starling.display.Sprite",
+		"customParams": {},
+		"params": {
+			"name": "intro-screen",
+			"x": 300
+		},
+		"tweenData": {
+			"layouts": ["horizontal", "vertical"]
+		}
+	},
+	"setting": {
+		"canvasColor": 0,
+		"canvasSize": {
+			"x": 1920,
+			"y": 1920
+		},
+		"hidden": "0010100",
+		"lock": "0000111"
+	},
+	"version": "2.0"
+}

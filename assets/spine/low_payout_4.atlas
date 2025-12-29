@@ -1,0 +1,9 @@
+low_payout_4.webp
+	size: 220, 115
+	filter: Linear, Linear
+blinky_00006
+	bounds: 2, 4, 114, 109
+	offsets: 5, 9, 119, 124
+gem
+	bounds: 118, 2, 100, 111
+	offsets: 0, 1, 100, 112

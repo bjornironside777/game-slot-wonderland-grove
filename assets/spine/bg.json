@@ -1,0 +1,110 @@
+{
+"skeleton": { "hash": "tf/Fjd5JIkw", "spine": "4.1.24", "x": -960, "y": -960, "width": 1920, "height": 1920 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "base_fx/base_fx_0", "parent": "root", "scaleX": 3, "scaleY": 3 }
+],
+"slots": [
+	{ "name": "basegame_bg", "bone": "root", "attachment": "basegame_bg" },
+	{ "name": "freegame_bg", "bone": "root", "attachment": "freegame_bg" },
+	{ "name": "basegame_bg2", "bone": "root", "blend": "screen" },
+	{ "name": "base_fx/base_fx_0", "bone": "base_fx/base_fx_0", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"basegame_bg": {
+				"basegame_bg": { "width": 1920, "height": 1920 }
+			},
+			"basegame_bg2": {
+				"basegame_bg": { "width": 1920, "height": 1920 }
+			},
+			"base_fx/base_fx_0": {
+				"base_fx/base_fx_": {
+					"width": 640,
+					"height": 640,
+					"sequence": { "count": 30, "start": 0 }
+				}
+			},
+			"freegame_bg": {
+				"freegame_bg": { "width": 1920, "height": 1920 }
+			}
+		}
+	}
+],
+"animations": {
+	"free_spin": {
+		"slots": {
+			"basegame_bg2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 1, "color": "ffffff6b" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "basegame_bg" }
+				]
+			},
+			"base_fx/base_fx_0": {
+				"attachment": [
+					{ "name": "base_fx/base_fx_" }
+				]
+			},
+			"freegame_bg": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"base_fx/base_fx_0": {
+					"base_fx/base_fx_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0667 },
+							{ "time": 2, "mode": "once", "index": 29, "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"basegame_bg": {
+				"attachment": [
+					{}
+				]
+			},
+			"basegame_bg2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 1, "color": "ffffff6b" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "basegame_bg" }
+				]
+			},
+			"base_fx/base_fx_0": {
+				"attachment": [
+					{ "name": "base_fx/base_fx_" }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"base_fx/base_fx_0": {
+					"base_fx/base_fx_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0667 },
+							{ "time": 2, "mode": "once", "index": 29, "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

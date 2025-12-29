@@ -1,0 +1,814 @@
+{
+	"layout": {
+		"children": [
+			{
+				"cls": "starling.display.Quad",
+				"constructorParams": [
+					{
+						"name": "width",
+						"type": "Number",
+						"value": 500
+					},
+					{
+						"name": "height",
+						"type": "Number",
+						"value": 492
+					}
+				],
+				"customParams": {},
+				"params": {
+					"x": 82,
+					"y": 80,
+					"alpha": 0.01,
+					"scaleX": 1.3,
+					"scaleY": 1.3,
+					"color": "0xFF0000",
+					"name": "safeArea",
+					"extraParam": {
+						"eventMode": "dynamic"
+					}
+				}
+			},
+
+			{"BetPanelBg": ""},
+			{
+				"cls": "starling.display.Image",
+				"constructorParams": [
+					{
+						"cls": "starling.textures.Texture",
+						"textureName": "betPanelBg"
+					}
+				],
+				"customParams": {},
+				"params": {
+					"name": "betPanelBg",
+					"x": -24,
+					"y": -24,
+					"scaleX": 1.3,
+					"scaleY": 1.3
+				}
+			},
+
+			{"betMultiplierLabel": ""},
+			{
+				"cls": "starling.text.TextField",
+				"constructorParams": [],
+				"customParams": {},
+				"params": {
+					"format": {
+						"cls": "starling.text.TextFormat",
+						"customParams": {},
+						"params": {
+							"color": "0xFFFFFF",
+							"font": "InterMedium",
+							"size": 34
+						}
+					},
+					"height": 100,
+					"name": "betMultiplierLabel",
+					"pivotX": 0,
+					"pivotY": 50,
+					"text": "win",
+					"width": 200,
+					"x": 115,
+					"y": 137,
+					"scaleX": 1.3,
+					"scaleY": 1.3,
+					"alpha": 0.7
+				},
+				"tweenData": {
+					"translation-key": "adjustBet.title"
+				}
+			},
+
+			{"betMultiplier": ""},
+			{
+				"cls": "starling.text.TextField",
+				"constructorParams": [],
+				"customParams": {},
+				"params": {
+					"format": {
+						"cls": "starling.text.TextFormat",
+						"customParams": {},
+						"params": {
+							"color": "0x36936F",
+							"font": "InterBold",
+							"size": 34
+						}
+					},
+					"height": 100,
+					"name": "betMultiplier",
+					"pivotX": 0,
+					"pivotY": 50,
+					"text": "20x",
+					"width": 200,
+					"x": 416,
+					"y": 137,
+					"scaleX": 1.3,
+					"scaleY": 1.3,
+					"alpha": 0.7
+				}
+			},
+
+			{"closeBtn": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "closeBtn"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "closeBtn"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "normal"
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "Button"
+				},
+				"params": {
+					"name": "closeBtn",
+					"x": 676,
+					"y": 137,
+					"pivotX": 25,
+					"pivotY": 25,
+					"scaleX": 1.3,
+					"scaleY": 1.3
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			},
+
+			{"betContainer": ""},
+			{
+				"children": [
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xFFFFFF",
+									"font": "InterMedium",
+									"size": 18
+								}
+							},
+							"height": 100,
+							"name": "bet",
+							"pivotX": 0,
+							"pivotY": 50,
+							"text": "bet",
+							"width": 200,
+							"x": 0,
+							"y": 0,
+							"alpha": 0.7
+						},
+						"tweenData": {
+							"translation-key": "adjustBet.tfBet"
+						}
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "betMinus"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "betMinus"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "normal"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "betMinus",
+							"x": 220,
+							"y": 0,
+							"pivotX": 28,
+							"pivotY": 28
+						},
+						"tweenData": {
+							"animation": {
+								"type": "bounce"
+							}
+						}
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "plusBtn"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "plusBtn"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "normal"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "betPlus",
+							"x": 404,
+							"y": 0,
+							"pivotX": 28,
+							"pivotY": 28
+						},
+						"tweenData": {
+							"animation": {
+								"type": "bounce"
+							}
+						}
+					},
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "betBg"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "betBg",
+							"x": 260,
+							"y": -28
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFFFFF",
+											"font": "InterSemiBold",
+											"size": 20,
+											"fontWeight": 700
+										}
+									},
+									"name": "textField",
+									"x": 0,
+									"y": 0,
+									"text": "20",
+									"width": 400,
+									"height": 100,
+									"pivotX": 200,
+									"pivotY": 50,
+									"alpha": 0.7
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MeterComponent"
+						},
+						"params": {
+							"name": "betMeter",
+							"x": 314,
+							"y": 0,
+							"pivotX": 200,
+							"pivotY": 50,
+							"extraParam": {
+								"debug": false
+							}
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {},
+				"params": {
+					"name": "betContainer",
+					"x": 114,
+					"y": 264,
+					"scaleX": 1.3,
+					"scaleY": 1.3
+				}
+			},
+
+			{"coinValueContainer": ""},
+			{
+				"children": [
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xFFFFFF",
+									"font": "InterMedium",
+									"size": 18
+								}
+							},
+							"height": 100,
+							"name": "coinValue",
+							"pivotX": 0,
+							"pivotY": 50,
+							"text": "coinValue",
+							"width": 200,
+							"x": 0,
+							"y": 0,
+							"alpha": 0.7
+						},
+						"tweenData": {
+							"translation-key": "adjustBet.tfCoinValue"
+						}
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "betMinus"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "betMinus"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "normal"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "coinMinus",
+							"x": 220,
+							"y": 0,
+							"pivotX": 28,
+							"pivotY": 28
+						},
+						"tweenData": {
+							"animation": {
+								"type": "bounce"
+							}
+						}
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "plusBtn"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "plusBtn"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "normal"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "coinPlus",
+							"x": 404,
+							"y": 0,
+							"pivotX": 28,
+							"pivotY": 28
+						},
+						"tweenData": {
+							"animation": {
+								"type": "bounce"
+							}
+						}
+					},
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "betBg"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "betBg",
+							"x": 260,
+							"y": -28
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFFFFF",
+											"font": "InterSemiBold",
+											"size": 20,
+											"fontWeight": 700
+										}
+									},
+									"name": "textField",
+									"x": 0,
+									"y": 0,
+									"text": "20",
+									"width": 400,
+									"height": 100,
+									"pivotX": 200,
+									"pivotY": 50,
+									"alpha": 0.7
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MeterComponent"
+						},
+						"params": {
+							"name": "coinValueMeter",
+							"x": 314,
+							"y": 0,
+							"pivotX": 200,
+							"pivotY": 50,
+							"extraParam": {
+								"debug": false
+							}
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {},
+				"params": {
+					"name": "coinValueContainer",
+					"x": 114,
+					"y": 382,
+					"scaleX": 1.3,
+					"scaleY": 1.3
+				}
+			},
+
+			{"totalBetContainer": ""},
+			{
+				"children": [
+					{
+						"cls": "starling.text.TextField",
+						"constructorParams": [],
+						"customParams": {},
+						"params": {
+							"format": {
+								"cls": "starling.text.TextFormat",
+								"customParams": {},
+								"params": {
+									"color": "0xFFFFFF",
+									"font": "InterMedium",
+									"size": 18
+								}
+							},
+							"height": 100,
+							"name": "totalBet",
+							"pivotX": 0,
+							"pivotY": 50,
+							"text": "totalBet",
+							"width": 200,
+							"x": 0,
+							"y": 0,
+							"alpha": 0.7
+						},
+						"tweenData": {
+							"translation-key": "adjustBet.tfTotalBet"
+						}
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "betMinus"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "betMinus"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "normal"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "totalBetMinusBtn",
+							"x": 220,
+							"y": 0,
+							"pivotX": 28,
+							"pivotY": 28
+						},
+						"tweenData": {
+							"animation": {
+								"type": "bounce"
+							}
+						}
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"cls": "starling.display.Image",
+										"constructorParams": [
+											{
+												"cls": "starling.textures.Texture",
+												"textureName": "plusBtn"
+											}
+										],
+										"customParams": {},
+										"params": {
+											"name": "plusBtn"
+										}
+									}
+								],
+								"cls": "starling.display.Sprite",
+								"customParams": {},
+								"params": {
+									"name": "normal"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "Button"
+						},
+						"params": {
+							"name": "totalBetPlusBtn",
+							"x": 404,
+							"y": 0,
+							"pivotX": 28,
+							"pivotY": 28
+						},
+						"tweenData": {
+							"animation": {
+								"type": "bounce"
+							}
+						}
+					},
+					{
+						"cls": "starling.display.Image",
+						"constructorParams": [
+							{
+								"cls": "starling.textures.Texture",
+								"textureName": "betBg"
+							}
+						],
+						"customParams": {},
+						"params": {
+							"name": "betBg",
+							"x": 260,
+							"y": -28
+						}
+					},
+					{
+						"children": [
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFFFFF",
+											"font": "InterSemiBold",
+											"size": 20,
+											"fontWeight": 700
+										}
+									},
+									"name": "textField",
+									"x": 0,
+									"y": 0,
+									"text": "20",
+									"width": 400,
+									"height": 100,
+									"pivotX": 200,
+									"pivotY": 50,
+									"alpha": 0.7
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {
+							"customComponentClass": "MeterComponent"
+						},
+						"params": {
+							"name": "totalBetMeter",
+							"x": 314,
+							"y": 0,
+							"pivotX": 200,
+							"pivotY": 50,
+							"extraParam": {
+								"debug": false
+							}
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {},
+				"params": {
+					"name": "totalBetContainer",
+					"x": 114,
+					"y": 510,
+					"scaleX": 1.3,
+					"scaleY": 1.3
+				}
+			},
+
+			{"maxBet": ""},
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"cls": "starling.display.Image",
+								"constructorParams": [
+									{
+										"cls": "starling.textures.Texture",
+										"textureName": "maxBtn"
+									}
+								],
+								"customParams": {},
+								"params": {
+									"name": "maxBtn"
+								}
+							},
+							{
+								"cls": "starling.text.TextField",
+								"constructorParams": [],
+								"customParams": {},
+								"params": {
+									"format": {
+										"cls": "starling.text.TextFormat",
+										"customParams": {},
+										"params": {
+											"color": "0xFFFFFF",
+											"font": "InterBold",
+											"size": 20
+										}
+									},
+									"height": 100,
+									"name": "maxBtnLabel",
+									"pivotX": 100,
+									"pivotY": 50,
+									"text": "maxBtn",
+									"width": 200,
+									"x": 230,
+									"y": 35,
+									"alpha": 0.7
+								},
+								"tweenData": {
+									"translation-key": "adjustBet.btnMax"
+								}
+							}
+						],
+						"cls": "starling.display.Sprite",
+						"customParams": {},
+						"params": {
+							"name": "normal"
+						}
+					}
+				],
+				"cls": "starling.display.Sprite",
+				"customParams": {
+					"customComponentClass": "Button"
+				},
+				"params": {
+					"name": "maxBetBtn",
+					"x": 408,
+					"y": 646,
+					"pivotX": 230,
+					"pivotY": 35,
+					"scaleX": 1.3,
+					"scaleY": 1.3
+				},
+				"tweenData": {
+					"animation": {
+						"type": "bounce"
+					}
+				}
+			}
+		],
+		"cls": "starling.display.Sprite",
+		"customParams": {},
+		"params": {
+			"name": "betPanelVertical",
+			"extraParam": {
+				"initialX": 540,
+				"initialY": 860,
+				"initialScaleX": 1.6,
+				"initialScaleY": 1.6,
+				"finalX": 540,
+				"finalY": -228,
+				"finalScaleX": 1.6,
+				"finalScaleY": 1.6,
+				"posOffset": 0,
+				"scaleOffset": 0,
+				"showDuration": 0.6,
+				"hideDuration": 0.5,
+				"showEase": "easeOutQuad",
+				"hideEase": "easeOutQuad",
+				"offsetEase": "easeinoutquad"
+			}
+		}
+	}
+}

@@ -1,0 +1,130 @@
+cong_banner.webp
+	size: 1992, 1286
+	filter: Linear, Linear
+CONGRATULATIONS
+	bounds: 1399, 268, 549, 64
+	offsets: 2, 2, 553, 67
+CONGRATULATIONS_turkish
+	bounds: 1399, 68, 394, 74
+	offsets: 1, 2, 396, 76
+PRESS ANYWHERE TO CONTINUE
+	bounds: 2, 25, 466, 19
+	offsets: 1, 1, 468, 21
+base
+	bounds: 2, 549, 1178, 735
+	offsets: 1, 1, 1180, 737
+blinky_00006
+	bounds: 946, 438, 114, 109
+	offsets: 5, 9, 119, 124
+cong_fx/cong_fx_0
+	bounds: 1989, 1283, 1, 1
+cong_fx/cong_fx_1
+	bounds: 1989, 1283, 1, 1
+cong_fx/cong_fx_28
+	bounds: 1989, 1283, 1, 1
+cong_fx/cong_fx_29
+	bounds: 1989, 1283, 1, 1
+cong_fx/cong_fx_10
+	bounds: 682, 11, 39, 33
+	offsets: 74, 38, 300, 110
+cong_fx/cong_fx_11
+	bounds: 1815, 234, 39, 32
+	offsets: 86, 39, 300, 110
+cong_fx/cong_fx_12
+	bounds: 993, 404, 39, 32
+	offsets: 98, 39, 300, 110
+cong_fx/cong_fx_13
+	bounds: 1107, 515, 39, 32
+	offsets: 110, 39, 300, 110
+cong_fx/cong_fx_14
+	bounds: 640, 11, 40, 33
+	offsets: 121, 38, 300, 110
+cong_fx/cong_fx_15
+	bounds: 1768, 199, 40, 33
+	offsets: 133, 38, 300, 110
+cong_fx/cong_fx_16
+	bounds: 946, 369, 40, 33
+	offsets: 145, 38, 300, 110
+cong_fx/cong_fx_17
+	bounds: 1446, 34, 41, 32
+	offsets: 156, 39, 300, 110
+cong_fx/cong_fx_18
+	bounds: 470, 2, 42, 32
+	offsets: 168, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_19
+	bounds: 504, 2, 42, 32
+	offsets: 180, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_2
+	bounds: 1950, 272, 11, 26
+	offsets: 11, 40, 300, 110
+	rotate: 90
+cong_fx/cong_fx_20
+	bounds: 1062, 515, 43, 32
+	offsets: 191, 39, 300, 110
+cong_fx/cong_fx_21
+	bounds: 1399, 34, 45, 32
+	offsets: 202, 39, 300, 110
+cong_fx/cong_fx_22
+	bounds: 1768, 234, 45, 32
+	offsets: 214, 39, 300, 110
+cong_fx/cong_fx_23
+	bounds: 946, 404, 45, 32
+	offsets: 226, 39, 300, 110
+cong_fx/cong_fx_24
+	bounds: 1950, 285, 47, 32
+	offsets: 236, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_25
+	bounds: 1768, 164, 38, 33
+	offsets: 247, 38, 300, 110
+cong_fx/cong_fx_26
+	bounds: 1810, 199, 27, 33
+	offsets: 259, 38, 300, 110
+cong_fx/cong_fx_27
+	bounds: 36, 7, 16, 31
+	offsets: 270, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_3
+	bounds: 2, 2, 21, 32
+	offsets: 11, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_4
+	bounds: 1148, 514, 33, 32
+	offsets: 11, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_5
+	bounds: 538, 2, 42, 32
+	offsets: 14, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_6
+	bounds: 572, 2, 42, 32
+	offsets: 25, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_7
+	bounds: 606, 2, 42, 32
+	offsets: 37, 39, 300, 110
+	rotate: 90
+cong_fx/cong_fx_8
+	bounds: 946, 334, 40, 33
+	offsets: 50, 38, 300, 110
+cong_fx/cong_fx_9
+	bounds: 1062, 480, 40, 33
+	offsets: 62, 38, 300, 110
+glow_1
+	bounds: 2, 46, 942, 501
+	offsets: 28, 155, 977, 796
+glow_2
+	bounds: 1182, 334, 950, 805
+	offsets: 65, 2, 1081, 808
+	rotate: 90
+glow_3
+	bounds: 946, 10, 451, 322
+	offsets: 37, 1, 524, 324
+placeholder
+	bounds: 1984, 331, 1, 1
+text_light
+	bounds: 1399, 144, 122, 367
+	offsets: 6, 6, 134, 379
+	rotate: 90
