@@ -7,19 +7,21 @@ import Wallet from '../../model/Wallet';
 
 export default class ConfirmBonusGameCompleteCommand extends ControlCommand {
 	public execute(): void {
-		const sm: SlotMachine = container.resolve(SlotMachine);
-		const wallet: Wallet = container.resolve(Wallet);
+        const sm: SlotMachine = container.resolve(SlotMachine);
+        const wallet: Wallet = container.resolve(Wallet);
 
-		wallet.balance = sm.roundResult.balance;
-		sm.currentSpinResult.bonus.roundComplete = true;
-		if (sm.currentSpinResult.nextBonus) {
-			sm.currentSpinResult.bonus = sm.currentSpinResult.nextBonus;
-		} else {
-			sm.currentSpinResult.bonus = null;
-		}
-		sm.bonusGameShown = false;
-		sm.bonusGameStarted = false;
-		sm.currentBetValue = sm.initialLineBet;
-		new ControlEvent(SlotGameEvent.SPIN_RESULT_READY).dispatch();
-	}
+        wallet.balance = wallet.balance + sm.currentSpinResult.bonus.winAmount - sm.bonusGameClaimdValue;
+        sm.currentSpinResult.bonus.roundComplete = true;
+        sm.bonusGameClaimdValue = 0;
+        if(sm.currentSpinResult.nextBonus) {
+            sm.currentSpinResult.bonus = sm.currentSpinResult.nextBonus;
+            sm.bonusGameShown = false;
+
+        } else {
+            sm.currentSpinResult.bonus = null;
+        }
+         sm.bonusGameStarted = false;
+        sm.currentBetValue = sm.initialLineBet ?? sm.description.betLimits[0];
+        new ControlEvent(SlotGameEvent.SPIN_RESULT_READY).dispatch();
+    }
 }

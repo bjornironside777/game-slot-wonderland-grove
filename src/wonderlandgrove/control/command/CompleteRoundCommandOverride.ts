@@ -15,9 +15,9 @@ export default class CompleteRoundCommandOverride extends ControlCommand {
         const history: History = container.resolve(History);
 
         sm.roundResult.complete = true;
-        wallet.balance = sm.roundResult.balance;
-        
         const winValue: number = sm.currentSpinResult.currentTotalWinValue;
+        wallet.balance =(sm.bonusGameShown && (sm.currentState == SlotMachineState.SPIN_RESULT_BONUS_GAME || sm.currentState == SlotMachineState.BONUS_GAME_ROUND_END) ) ? wallet.balance:wallet.balance+=winValue;
+
         /* history.entries.unshift({
             datetime: Date.now(),
             balance: wallet.balance,

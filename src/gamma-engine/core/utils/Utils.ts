@@ -99,11 +99,11 @@ export function autoscaleText(tf: Text, maxFontSize: number, maxWidth: number, m
     }
 }
 
-export function calculateDaysAndHours(diffMs: number): { days: number; hours: number } {
+export function calculateDaysHoursAndMinutes(diffMs: number): { days: number; hours: number, minutes: number } {
     const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
     const hours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-
-    return { days, hours };
+    const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+    return { days, hours, minutes };
 }
 
 export function createUnderlinedText(
