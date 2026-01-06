@@ -70,7 +70,7 @@ export default class SlotMachine extends EventEmitter {
 	public previousRoundResult: RoundResult = null;
 
 	public autoplay: Autoplay;
-
+    public  bonusGameClaimdValue:number=0;
 	constructor(description: SlotMachineDescription, options: Partial<SlotMachineOptions> = null) {
 		super();
 
@@ -136,12 +136,20 @@ export default class SlotMachine extends EventEmitter {
 	}
 
 	public set currentBetValue(value: number) {
-		if (this._currentBetValue == value) {
-			return;
-		}
-		this._currentBetValue = value;
-		this.emit(SlotMachineEvent.BET_VALUE_CHANGED, this._currentBetValue);
-	}
+        if (value === null || value === undefined || Number.isNaN(value)) {
+            value = this.description.betLimits[0];
+        }
+        if (!this._currentBetValue) {
+            this._currentBetValue = value;
+            this.emit(SlotMachineEvent.BET_VALUE_CHANGED, this._currentBetValue);
+            return;
+        }
+        if (this._currentBetValue === value) {
+            return;
+        }
+        this._currentBetValue = value;
+        this.emit(SlotMachineEvent.BET_VALUE_CHANGED, this._currentBetValue);
+    }
 
 	public get totalBet(): number {
 		return this._currentBetValue * (this.numLines == 0 ? this.combinations : this.numLines) * this.betQuantity;

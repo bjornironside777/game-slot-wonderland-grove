@@ -99,8 +99,9 @@ export class FreeSpinButton extends Button {
 	}
 
 	private onClick(): void {
-		const sm: SlotMachine = container.resolve(SlotMachine);
+        const sm: SlotMachine = container.resolve(SlotMachine);
         if(sm.autoplay.spinsLeft > 0) return;
+        if (!sm.bonusGameStarted) {
 		const data: PopupData = {
 			type: PopupType.FEATURE_BUY,
 			hideOnClick: false,
@@ -109,7 +110,7 @@ export class FreeSpinButton extends Button {
 		};
 		new ControlEvent(UIPanelEvent.SHOW_POPUP, data).dispatch();
 	}
-
+    }
 	public setTexts(title: string, value: string, isActive: boolean = true, isNotAlpha: boolean = true): void {
 		this.tfTitle.text = title;
 		this.tfValue.text = value;

@@ -751,7 +751,6 @@
               "pivotY": 50,
               "text": "",
               "width": 100,
-              "x": -16,
               "y": 138
             },
             "tweenData": {
@@ -1219,7 +1218,7 @@
                 "params": {
                   "color": "#ffffff",
                   "font": "InterBold",
-                  "size": 44
+                  "size": 38
                 }
               },
               "height": 100,
@@ -1256,7 +1255,7 @@
                 "params": {
                   "color": "#FFD000",
                   "font": "InterBold",
-                  "size": 44
+                  "size": 38
                 }
               },
               "height": 100,
@@ -1265,7 +1264,6 @@
               "pivotY": 50,
               "text": "",
               "width": 100,
-              "x": 12,
               "y": 202
             }
           },

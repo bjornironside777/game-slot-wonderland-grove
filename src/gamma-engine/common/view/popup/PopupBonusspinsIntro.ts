@@ -16,6 +16,8 @@ export default class PopupBonusspinsIntro extends Container {
 	private tfBonusMessage: Text;
 
 	private tfExpiresInValue: Text;
+    private tfExpiresIn: Text;
+
 
 	private btnClose: Button;
 
@@ -23,12 +25,18 @@ export default class PopupBonusspinsIntro extends Container {
 
 	private btnPlayNow: Button;
 
-	constructor(le: LayoutElement, private spinsCount: number | (() => number), private expiration: {days: number; hours: number} | (() => {days: number; hours: number}), private disablePlayLater: boolean | (() => boolean)) {
+	constructor(
+        private language: string,
+        private X_offset: number,
+        le: LayoutElement, private spinsCount: number | (() => number),
+        private expiration: { days: number; hours: number, minutes: number } | (() => { days: number; hours: number, minutes: number }),
+        private disablePlayLater: boolean | (() => boolean)) {
 		super();
 		LayoutBuilder.create(le, this, (le: LayoutElement) => {
 			return this.customClassElementCreate(le);
 		});
-
+        this.tfExpiresIn.x = this.language === 'TR' ? this.X_offset / 2.5 - 65 : this.X_offset - 145;
+        this.tfExpiresInValue.x=this.tfExpiresIn.x+10;
 		this.btnClose.on('pointerup', this.onBtnClose, this);
 		this.btnPlayLater.on('pointerup', this.onBtnClose, this);
 		this.btnPlayNow.on('pointerup', this.onBtnPlayNow, this);
@@ -56,7 +64,7 @@ export default class PopupBonusspinsIntro extends Container {
 		}
 		this.tfBonusReceived.style.align = 'center';
 		this.tfBonusMessage.style.align = 'center';
-		this.tfExpiresInValue.text = this.expirationString(expiresIn.days, expiresIn.hours);
+		this.tfExpiresInValue.text = this.expirationString(expiresIn.days, expiresIn.hours, expiresIn.minutes);
 	}
 
 	private onRemoved(): void {}
@@ -84,9 +92,10 @@ export default class PopupBonusspinsIntro extends Container {
 		new ControlEvent(UIPanelEvent.HIDE_POPUP).dispatch();
 	}
 
-	private expirationString(days: number, hours: number): string {
+	private expirationString(days: number, hours: number, minutes: number): string {
 		const tfDays = days > 1 ? `${days} ${AssetsManager.translations.get('bonusSpins.tfDays')}` : `${days} ${AssetsManager.translations.get('bonusSpins.tfDay')}`;
 		const tfHours = hours > 1 ? `${hours} ${AssetsManager.translations.get('bonusSpins.tfHours')}` : `${hours} ${AssetsManager.translations.get('bonusSpins.tfHour')}`;
-		return `${tfDays}, ${tfHours}`;
+		const tfMinutes = minutes > 1 ? `${minutes} ${AssetsManager.translations.get('bonusSpins.tfMinutes')}` : `${minutes} ${AssetsManager.translations.get('bonusSpins.tfMinute')}`;
+        return `${tfDays}, ${tfHours}, ${tfMinutes}`;
 	}
 }

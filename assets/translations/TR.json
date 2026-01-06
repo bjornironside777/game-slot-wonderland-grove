@@ -298,6 +298,8 @@
 		"tfDay": "GÜN",
 		"tfHours": "SAAT",
 		"tfHour": "SAAT",
+        "tfMinutes": "DAKİKA",
+        "tfMinute": "DAKİKA",
 		"tfPlayLater": "DAHA SONRA OYNA",
 		"tfPlayNow": "ŞİMDİ OYNA",
 		"tfFreeBonus": "ÜCRETSİZ BONUS",

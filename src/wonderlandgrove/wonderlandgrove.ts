@@ -78,7 +78,7 @@ import { AutoplayPanel } from './components/uiPanel/AutoplayPanel';
 import { SettingsPanel } from './components/uiPanel/SettingsPanel';
 import PopupBonusspinsIntro from '../gamma-engine/common/view/popup/PopupBonusspinsIntro';
 import PopupBonusspinsOutro from '../gamma-engine/common/view/popup/PopupBonusspinsOutro';
-import { calculateDaysAndHours } from '../gamma-engine/core/utils/Utils';
+import { calculateDaysHoursAndMinutes } from '../gamma-engine/core/utils/Utils';
 import { SettingsType } from '../gamma-engine/slots/model/SettingsType';
 
 declare let VERSION: string;
@@ -185,7 +185,7 @@ export class WonderLandGrove extends BrowserApplication {
 		}
 
 		if (utils.isMobile.any) {
-		
+
 		}
 
 		Logger.info(`Gammastack -WonderLand Grove [${VERSION}]`);
@@ -222,7 +222,7 @@ export class WonderLandGrove extends BrowserApplication {
         };
         function handleVisibilityChange() {
             const { ctx } = Howler;
-    
+
             if (document.visibilityState !== "hidden") {
                 Howler.autoSuspend = false;
                 setTimeout(() => {
@@ -232,17 +232,17 @@ export class WonderLandGrove extends BrowserApplication {
                         }).catch(err => {
                             // console.error("Failed to resume audio context:", err);
                         });
-                     
+
                     }
                     Howler.mute(false);
-                }, 100);       
+                }, 100);
             } else {
                 Howler.mute(true);
             }
         }
-    
+
         document.addEventListener('visibilitychange', handleVisibilityChange);
-	
+
 		this.gameService = new GameService(config.serverApiUrl, config.jwtToken, config.gameCode, config.lobbyUrl ?? '');
 		// this.gameService = new DummyGameService(config.lobbyUrl ?? '',config.startingBalance ?? 0);
 		container.registerInstance<IGameService>('GameService', this.gameService);
@@ -279,8 +279,7 @@ export class WonderLandGrove extends BrowserApplication {
 		this.popupManager.position.set(this.baseWidth / 2, this.baseHeight / 2);
 		this.stage.addChild(this.popupManager);
 
-		if(config.language) 
-            this.language = config.language;
+		this.language = config.language?.toUpperCase() === 'TR' ? 'TR' : 'EN';
 
 		if (config.assetsBaseUrl) this.assetsBaseUrl = config.assetsBaseUrl;
 
@@ -292,7 +291,7 @@ export class WonderLandGrove extends BrowserApplication {
 
 		loadingScreenAssetsLoader.load();
 	}
-	
+
 
 	public set activeMainGameView(value: DisplayObject & IAdjustableLayout) {
 		if (this._activeMainGameView == value) {
@@ -872,24 +871,28 @@ export class WonderLandGrove extends BrowserApplication {
 				break;
 			case PopupType.BONUS_GAME_INTRO:
 				popupHorizontal = this.popupBonusspinsIntroHorizontal ??= new PopupBonusspinsIntro(
+                    this.language,
+                    50,
 					AssetsManager.layouts.get('PopupBonusspinsIntroHorizontal'),
 					() => {
 						return this.slotMachine.currentSpinResult.bonus.remainingCount;
 					},
 					() => {
-						return calculateDaysAndHours(this.slotMachine.currentSpinResult.bonus.expiredInMS);
+						return calculateDaysHoursAndMinutes(this.slotMachine.currentSpinResult.bonus.expiredInMS);
 					},
 					() => {
 						return this.slotMachine.currentSpinResult.bonus.remainingCount !== this.slotMachine.currentSpinResult.bonus.totalCount;
 					},
 				);
 				popupVertical = this.popupBonusspinsIntroVertical ??= new PopupBonusspinsIntro(
+                    this.language,
+                    0,
 					AssetsManager.layouts.get('PopupBonusspinsIntroVertical'),
 					() => {
 						return this.slotMachine.currentSpinResult.bonus.remainingCount;
 					},
 					() => {
-						return calculateDaysAndHours(this.slotMachine.currentSpinResult.bonus.expiredInMS);
+						return calculateDaysHoursAndMinutes(this.slotMachine.currentSpinResult.bonus.expiredInMS);
 					},
 					() => {
 						return this.slotMachine.currentSpinResult.bonus.remainingCount !== this.slotMachine.currentSpinResult.bonus.totalCount;

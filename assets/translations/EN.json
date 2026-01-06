@@ -272,7 +272,7 @@
 		"youHaveLeft": "YOU HAVE LEFT",
 		"youHaveWon": "YOU HAVE WON",
 		"PressAny": "PRESS ANYWHERE TO CONTINUE",
-		"freeSpinEnd": "FREE SPINS" 
+		"freeSpinEnd": "FREE SPINS"
 	},
 	"doubleChance": {
 		"bet": "BET",
@@ -296,6 +296,8 @@
     "tfDay": "DAY",
     "tfHours": "HOURS",
     "tfHour": "HOUR",
+    "tfMinutes": "MINUTES",
+    "tfMinute": "MINUTE",
     "tfPlayLater": "PLAY LATER",
     "tfPlayNow": "PLAY NOW",
     "tfFreeBonus": "FREE BONUS",
