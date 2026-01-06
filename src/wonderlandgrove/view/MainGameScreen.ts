@@ -524,7 +524,7 @@ export default class MainGameScreen extends AdjustableLayoutContainer {
 		// if (!this.btnMultiFunctional.isVisible()) {
 		//     this.totalWinFrame.changePosition(-50, true);
 		// }
-
+		const isInFreeSpin = this.slotMachine.roundResult.currentType?.FreeSpin;
 		//Restore previous freespin state
 		if (this.slotMachine.roundResult.nextType === 10 || this.slotMachine.roundResult.nextType === 31) {
 			this.totalWinFrame.setValue(this.slotMachine.currentSpinResult.currentTotalWinValue);
@@ -543,6 +543,9 @@ export default class MainGameScreen extends AdjustableLayoutContainer {
 			// });
 		} else if (this.slotMachine.currentSpinResult.bonus) {
             this.slotMachine.currentState = SlotMachineState.SPIN_RESULT_BONUS_GAME;
+        }else if(isInFreeSpin){
+              this.slotMachine.currentState = SlotMachineState.FREE_SPINS_ROUND_END;
+                return;
         }
 	}
 
