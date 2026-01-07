@@ -490,6 +490,11 @@ export class WonderLandGrove extends BrowserApplication {
 
 				break;
 			case SlotMachineState.BIG_WIN:
+					if ((this.slotMachine.autoplay.enabled &&  !this.gameService.settings?.skipBigWin) ){
+						new ControlEvent(SlotGameEvent.BIG_WIN_SHOWN).dispatch();
+				}else{
+                    this.slotMachine.bigWinShown = true;
+                   
 				this.popupBigWinHorizontal?.['updateLayout']?.(this.updateLayoutDescription);
 				this.popupBigWinVertical?.['updateLayout']?.(this.updateLayoutDescription);
 				this.popupManager.show(
@@ -543,6 +548,7 @@ export class WonderLandGrove extends BrowserApplication {
 					false,
 					true
 				);
+			}
 				break;
 			case SlotMachineState.FREE_SPINS_ROUND_START:
 				// this.popupFreespinsVertical?.['updateLayout']?.(this.updateLayoutDescription);

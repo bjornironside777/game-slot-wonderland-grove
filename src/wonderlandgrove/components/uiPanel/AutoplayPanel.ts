@@ -16,6 +16,8 @@ import Button from '../../../gamma-engine/core/view/ui/Button';
 import { container } from 'tsyringe';
 import SlotMachine from '../../../gamma-engine/slots/model/SlotMachine';
 import AssetsManager from '../../../gamma-engine/core/assets/AssetsManager';
+import SwitchView from '../../../gamma-engine/common/view/ui/SwitchView';
+import GameService from '../../services/GameService';
 
 export class AutoplayPanel extends Panel {
 	protected checkboxes: Map<AutospinOption, CheckBoxOption> = new Map<AutospinOption, CheckBoxOption>();
@@ -42,8 +44,16 @@ export class AutoplayPanel extends Panel {
 
 	protected cashBalanceDecreaseMtr: NumericInputComponent;
 
+	
+	private gs: GameService;
+
+	public skipScreenSwitch: SwitchView;
+
 	protected btnConfirm: Button;
+	
 	protected btnConfirmText: Text;
+	
+	public skipBtn: ToggleButton;
 
 	constructor(le: LayoutElement) {
 		super(le);
@@ -56,11 +66,18 @@ export class AutoplayPanel extends Panel {
 		this.cashBalanceIncreaseMtr = this['advancedSettings']['cashBalanceIncrease']['cashBalanceIncreaseMtr'];
 		this.cashBalanceDecreaseMtr = this['advancedSettings']['cashBalanceDecrease']['cashBalanceDecreaseMtr'];
 		this.turboBtn = this['basicSettings']['spinContainer']['spinBtn'];
+		this.skipBtn = this['basicSettings']['skipScreenContainer']['skipScreenBtn'];
+		
 		this.btnConfirmText = this['btnConfirm']['normal']['tfText']
+		
+  		this.gs = container.resolve('GameService');
+		
+		this.skipScreenSwitchChange();
 
 		this.spinCountSlider.on('update', this.onAutoplayCountUpdated, this);
 		const sm = container.resolve(SlotMachine);
 		this.turboBtn.setStateView(sm.currentGameSpeedLevel === 1);
+		this.skipBtn.on(ToggleButton.STATE_CHANGED,this.skipScreenSwitchChange,this)
 		this.turboBtn.on(ToggleButton.STATE_CHANGED, this.onTurboBtnHandler, this);
 		this.btnConfirm.on('pointerup', this.onBtnConfirm, this);
 
@@ -74,6 +91,17 @@ export class AutoplayPanel extends Panel {
 			new ControlEvent(UIEvent.GAME_SPEED_LEVEL_DOWN).dispatch();
 		}
 	}
+
+	protected skipScreenSwitchChange():void{
+		if(this.skipBtn.getIsStateOn()){
+			this.skipBtn.setStateView(true)
+			this.gs.settings.skipBigWin = false;
+		}else{
+			this.skipBtn.setStateView(false)
+			this.gs.settings.skipBigWin = true;
+		}		
+		this.gs.saveSettings();
+}
 
 	public override customClassElementCreate(le: LayoutElement): unknown {
 		let instance: unknown = null;
