@@ -5,4 +5,5 @@ export type SettingsType = {
 	soundFx: boolean;
 	introScreen: boolean;
 	showIntro: boolean;
+	skipBigWin: boolean;
 };
