@@ -792,6 +792,7 @@ export default class GameService extends EventEmitter implements ICommonGameServ
             multiplierMap: data.Current ? this.parseMultiplierMap(data.Current.MultiplierMap) : null,
             spinIndex: 0,
             nextType: data.Next.Type,
+            currentType : data.Current,
             balance: data.Player.Balance,
             spins: [
                 {
