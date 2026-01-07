@@ -362,7 +362,7 @@ export default class MainGameScreen extends AdjustableLayoutContainer {
 				this.uiPanelHorizontal.unlock(true);
 				//[this.uiPanelDesktop, this.uiPanelMobileVertical].forEach((panel) => panel.unlock(true));
 
-				
+
 				break;
 
 			case SlotMachineState.BONUS_GAME_ROUND_END:
@@ -379,10 +379,10 @@ export default class MainGameScreen extends AdjustableLayoutContainer {
 
 				this.uiPanelPortrait.unlock(this.slotMachine.bonusGameStarted);
 				this.uiPanelHorizontal.unlock(this.slotMachine.bonusGameStarted);
-				[this.bonusGameStatusBarHorizontal, this.bonusGameStatusBarVertical].forEach((statusBar) => {
-					statusBar.setRemainingCount(0);
-					statusBar.setWinValue(0);
-				});
+				// [this.bonusGameStatusBarHorizontal, this.bonusGameStatusBarVertical].forEach((statusBar) => {
+				// 	statusBar.setRemainingCount(0);
+				// 	statusBar.setWinValue(0);
+				// });
 				if(this.slotMachine.bonusGameStarted) {
 					this.btnFreeSpin.enabled = false;
 				} else {
@@ -532,7 +532,7 @@ export default class MainGameScreen extends AdjustableLayoutContainer {
 
             this.uiPanelPortrait.setWinValue(this.slotMachine.currentSpinResult.currentTotalWinValue);
 			this.uiPanelHorizontal.setWinValue(this.slotMachine.currentSpinResult.currentTotalWinValue);
-            
+
 			this.slotMachine.showFreeSpinsPopup = false;
 			this.slotMachine.currentState = SlotMachineState.FREE_SPINS_ROUND_START;
 			this.uiPanelPortrait.lock();

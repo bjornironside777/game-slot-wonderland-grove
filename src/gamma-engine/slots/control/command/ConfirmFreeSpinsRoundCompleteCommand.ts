@@ -10,6 +10,11 @@ export default class ConfirmFreeSpinsRoundCompleteCommand extends ControlCommand
         sm.currentSpinResult.freespins.roundComplete = true;
         if(sm.bonusForLater) {
             sm.currentSpinResult.bonus = sm.bonusForLater;
+            //if round result is already completed
+            if (sm.roundResult.complete == true)
+                return;
+
+            new ControlEvent(SlotGameEvent.ROUND_COMPLETE).dispatch();
         }
 
         new ControlEvent(SlotGameEvent.SPIN_RESULT_READY).dispatch();
