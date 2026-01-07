@@ -339,7 +339,6 @@ export default class SlotMachine extends EventEmitter {
 			totalBet: 0,
 			totalWinValue: 0,
 			nextType: result ? result.nextType : null,
-			currentType: result ? result.currentType : null,
 			complete: false,
 			accWin: 0,
 			payout: 0,

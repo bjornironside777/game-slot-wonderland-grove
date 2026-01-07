@@ -84,7 +84,6 @@ export type RoundResult = {
 	totalWinValue: number;
 	spinIndex: number;
 	nextType?: number;
-	currentType? : any,
 	spins: SpinResult[];
 	complete: boolean;
 	multiplierMap?: MultiplierMap[];
