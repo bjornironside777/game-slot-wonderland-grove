@@ -11,6 +11,7 @@ export type AutoplaySettings = {
     onCashBalanceIncreaseBy?: number,
     onCashBalanceDecreaseBy?: number,
     turbo?: boolean
+	skipBigWin?: boolean;
 }
 
 export default class Autoplay extends EventEmitter {
