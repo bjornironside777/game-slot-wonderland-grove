@@ -11,7 +11,7 @@
       "url": "./images/loading-screen-0.json"
     },
     {
-      "name": "loadingBg",
+      "name": "loading-screen-bcg",
       "url": "./images/loading-screen-bcg.webp"
     }
   ],
