@@ -1,6 +1,6 @@
 {
   "name": "slots-WonderLand-Grove",
-  "version": "0.0.54",
+  "version": "0.0.55",
   "description": "Slots - WonderLandGrove",
   "main": "webpack.config.js",
   "license": "UNLICENSED",
