@@ -68,7 +68,7 @@ export default class SlotMachine extends EventEmitter {
 	private round_Result: RoundResult = null;
 
 	public previousRoundResult: RoundResult = null;
-
+    public canSpin: boolean = false;
 	public autoplay: Autoplay;
     public  bonusGameClaimdValue:number=0;
 	constructor(description: SlotMachineDescription, options: Partial<SlotMachineOptions> = null) {

@@ -353,6 +353,7 @@ export class UIPanelHorizontal extends BottomLayoutContainerComponent {
 	}
 
 	private onSpaceClick(event: KeyboardEvent) {
+        if(!this.slotMachine.canSpin)return;
 		const uiState: UIState = container.resolve(UIState);
 		const popupState: PopupState = container.resolve(PopupState);
 		if (event.code === 'Space') {

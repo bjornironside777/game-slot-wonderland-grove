@@ -520,6 +520,7 @@ export default class MainGameScreen extends AdjustableLayoutContainer {
 	}
 
 	private onAdded(): void {
+        this.slotMachine.canSpin = true;
 		//Set position of total win frame if multi func button is not visible
 		// if (!this.btnMultiFunctional.isVisible()) {
 		//     this.totalWinFrame.changePosition(-50, true);
