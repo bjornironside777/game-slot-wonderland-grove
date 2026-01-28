@@ -63,7 +63,7 @@ export default class BonusGameStatusBar extends Container {
 		//To fix the issue when previous tween is not finished yet
 		if (Tweener.isTweening(this.tfWinValue)) {
 			Tweener.removeTweens(this.tfWinValue);
-			this.tfWinValue.value = wallet.balance;
+			this.tfWinValue.value = value;
 			return;
 		}
 
